@@ -24,7 +24,7 @@ const Nav = () => {
       <ul
         className={
           isOpen
-            ? "ease-in duration-500 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen bg-[#1F4A23]"
+            ? "ease-in duration-500 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen bg-[#2E3B4E]"
             : "absolute top-0 h-screen left-[100%] ease-in duration-500 flex flex-col w-full md:h-min md:static md:flex-row justify-center items-center"
         }
       >

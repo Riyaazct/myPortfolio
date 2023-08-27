@@ -13,11 +13,11 @@ import { FaNodeJs } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <>
-      <h2 className="text-4xl text-[#1E1E1E] font-extrabold mt-32 mb-8">
+    <div className="text-center ">
+      <h2 className="text-4xl text-[#1E1E1E] font-extrabold pb-8">
         Skills
       </h2>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap justify-center gap-2">
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
           <ImHtmlFive size={35} />
           <p className="text-sm font-medium">HTML</p>
@@ -55,8 +55,8 @@ const Skills = () => {
           <p className="text-sm font-medium">Github</p>
         </div>
       </div>
-      <Button />
-    </>
+      <Button title="Contact Me" />
+    </div>
   );
 };
 
