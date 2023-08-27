@@ -1,16 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Spin, Spin as Hamburger } from "hamburger-react";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if ((window, innerWidth >= 768)) {
+        setIsOpen(false);
+      }
+    };
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div className="w-full bg-blue-400 ">
+    <div className="w-full">
       <ul
         className={
           isOpen
             ? "ease-in duration-500 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen"
-            : "absolute top-0 h-screen left-[100%] ease-in duration-500 flex flex-col w-full md:w-min md:h-min md:static md:flex-row justify-center items-center"
+            : "absolute top-0 h-screen left-[100%] ease-in duration-500 flex flex-col w-full md:h-min md:static md:flex-row justify-center items-center"
         }
       >
         <li className="p-4 text-3xl">About</li>
