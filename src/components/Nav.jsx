@@ -20,17 +20,17 @@ const Nav = () => {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="w-full text-[#ffffff] font-bold absolute top-0 left-0 right-0">
       <ul
         className={
           isOpen
-            ? "ease-in duration-500 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen"
+            ? "ease-in duration-500 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen bg-[#1F4A23]"
             : "absolute top-0 h-screen left-[100%] ease-in duration-500 flex flex-col w-full md:h-min md:static md:flex-row justify-center items-center"
         }
       >
-        <li className="p-4 text-3xl">About</li>
-        <li className="p-4 text-3xl">Projects</li>
-        <li className="p-4 text-3xl">Contact</li>
+        <li className="p-4 text-3xl ">About</li>
+        <li className="p-4 text-3xl ">Projects</li>
+        <li className="p-4 text-3xl ">Contact</li>
       </ul>
       <div className="absolute top-3 right-3 md:hidden ">
         <Spin
