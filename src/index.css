@@ -11,6 +11,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  background-color: rgba(199, 199, 199, 0.185);
 }
 
 h1,
