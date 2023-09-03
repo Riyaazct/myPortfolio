@@ -29,9 +29,9 @@ const Projects = () => {
         </div> */}
 
       {/* Project Container */}
-      <div className="grid grid-cols-1 gap-5 p-5 mx-auto lg:grid-cols-2 lg:max-w-7xl">
+      <div className="grid grid-cols-1 gap-5 p-5 mx-auto lg:grid-cols-2 lg:max-w-[1300px]">
         {/* Project Card 1 */}
-        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E]">
+        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#1E1E1E] ">
             TV Show Explorer
           </h3>
@@ -43,7 +43,7 @@ const Projects = () => {
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
             manipulating the DOM and fetching data from the TVmaze API
-            using
+            using {/* */}
             <span className="text-[#FFD700] font-mediums">
               HTML, CSS and JavaScript
             </span>
@@ -85,7 +85,7 @@ const Projects = () => {
         {/*end of project card 1 */}
 
         {/* Project Card 2 */}
-        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E]">
+        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#1E1E1E] ">
             TV Show Explorer
           </h3>
@@ -97,7 +97,7 @@ const Projects = () => {
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
             manipulating the DOM and fetching data from the TVmaze API
-            using
+            using {/* */}
             <span className="text-[#FFD700] font-mediums">
               HTML, CSS and JavaScript
             </span>
@@ -144,7 +144,7 @@ const Projects = () => {
         {/*  */}
 
         {/* Project Card 1 */}
-        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E]">
+        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#1E1E1E] ">
             TV Show Explorer
           </h3>
@@ -156,7 +156,7 @@ const Projects = () => {
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
             manipulating the DOM and fetching data from the TVmaze API
-            using
+            using {/* */}
             <span className="text-[#FFD700] font-mediums">
               HTML, CSS and JavaScript
             </span>
@@ -198,7 +198,7 @@ const Projects = () => {
         {/*end of project card 1 */}
 
         {/* Project Card 2 */}
-        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E]">
+        <div className="flex flex-col items-center p-1 m-2 border-2 rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#1E1E1E] ">
             TV Show Explorer
           </h3>
@@ -210,7 +210,7 @@ const Projects = () => {
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
             manipulating the DOM and fetching data from the TVmaze API
-            using
+            using {/* */}
             <span className="text-[#FFD700] font-mediums">
               HTML, CSS and JavaScript
             </span>
