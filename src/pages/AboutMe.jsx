@@ -8,21 +8,21 @@ import { LiaToolsSolid } from "react-icons/lia";
 
 const AboutMe = () => {
   return (
-    <section className="bg-[#2E3B4E] w-full pb-10 ">
+    <section className="bg-[#2E3B4E] w-full pb-10">
       {/*  */}
 
       {/* Title */}
       <div className="h-[8.062rem] bg-[#1F4A23] text-white text-center flex flex-col justify-center border-b-2 border-b-[#1E1E1E] lg:p-20 ">
-        <h2 className="text-2xl font-semibold lg:text-3xl lg:p-2 xl:text-4xl xl:p-4">
+        <h2 className="text-2xl font-semibold md:text-3xl md:p-2 xl:text-4xl xl:p-4">
           Get to Know Me
         </h2>
-        <p className="text-xs lg:text-lg xl:text-xl">
+        <p className="text-xs md:text-sm lg:text-lg xl:text-xl">
           Exploring the world of web development through passion and
           persistance
         </p>
       </div>
 
-      <div className="flex flex-col gap-5 px-7 mt-14 md:flex-row xl:max-w-[90%] lg:mx-auto lg:gap-10 lg:pt-14 lg:justify-center">
+      <div className="flex flex-col gap-5 px-7 mt-20 md:flex-row xl:max-w-[90%] lg:mx-auto lg:gap-10 lg:pt-14 lg:justify-center">
         {/* Card container */}
 
         <div className="lg:hover:bg-[#1F4A23] text-left px-2 py-6 rounded-md shadow-md drop-shadow-xl shadow-black">
@@ -75,7 +75,7 @@ const AboutMe = () => {
       </div>
       <div className="max-w-[1200px] lg:mx-auto">
         {/* Bootcamp experience  */}
-        <div className="max-w-[90%] mx-auto text-left mt-16 p-4">
+        <div className="max-w-[90%] mx-auto text-left mt-16 p-4 lg:mt-20">
           <h3 className=" text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Bootcamp Experience
           </h3>
@@ -89,7 +89,7 @@ const AboutMe = () => {
         {/* End of bootcamp experience */}
 
         {/* Personal qualities and values */}
-        <div className="max-w-[90%] mx-auto text-left mt-8 p-4">
+        <div className="max-w-[90%] mx-auto text-left mt-8 p-4 lg:mt-14">
           <h3 className=" text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Personal qualities and values
           </h3>
@@ -115,7 +115,7 @@ const AboutMe = () => {
         {/* End of Personal qualities and values */}
 
         {/* Aspirations and Conclusion  */}
-        <div className="max-w-[90%] mx-auto text-left mt-8 p-4">
+        <div className="max-w-[90%] mx-auto text-left mt-8 p-4 lg:mt-14">
           <h3 className=" text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Aspirations and Conclusion
           </h3>
