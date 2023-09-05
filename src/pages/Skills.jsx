@@ -13,50 +13,124 @@ import { FaNodeJs } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="text-center ">
-      <h2 className="text-4xl text-[#1E1E1E] font-extrabold pb-8">
+    <section className="text-center ">
+      <h2 className="text-4xl text-[#1E1E1E] font-extrabold pb-8 lg:text-5xl">
         Skills
       </h2>
-      <div className="flex flex-wrap justify-center gap-2">
+      <div className="flex flex-wrap justify-center gap-2 lg:gap-5">
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <ImHtmlFive size={35} />
-          <p className="text-sm font-medium">HTML</p>
+          <ImHtmlFive
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">HTML</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiCss3 size={35} />
-          <p className="text-sm font-medium">CSS</p>
+          <SiCss3
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">CSS</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiJavascript size={35} />
-          <p className="text-sm font-medium">JavaScript</p>
+          <SiJavascript
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">JavaScript</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiReact size={35} />
-          <p className="text-sm font-medium">React</p>
+          <SiReact
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">React</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <FaNodeJs size={35} />
-          <p className="text-sm font-medium">Node.js</p>
+          <FaNodeJs
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">Node.js</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiExpress size={35} />
-          <p className="text-sm font-medium">Express.js</p>
+          <SiExpress
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">Express.js</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiPostgresql size={35} />
-          <p className="text-sm font-medium">PostgreSQL</p>
+          <SiPostgresql
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">PostgreSQL</p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiTailwindcss size={35} />
-          <p className="text-sm font-medium">TailwindCss</p>
+          <SiTailwindcss
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">
+            TailwindCss
+          </p>
         </div>
         <div className="flex flex-col items-center gap-1 p-2 text-[#1F4A23] ">
-          <SiGithub size={35} />
-          <p className="text-sm font-medium">Github</p>
+          <SiGithub
+            size={
+              window.innerWidth <= 768
+                ? 35
+                : window.innerWidth <= 1024
+                ? 48
+                : 58
+            }
+          />
+          <p className="text-sm font-medium lg:text-lg">Github</p>
         </div>
       </div>
       <Button title="Contact Me" />
-    </div>
+    </section>
   );
 };
 

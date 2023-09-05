@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 import Nav from "../components/Nav";
 import Button from "../components/Button";
-// import Skills from "./Skills";
 import { SiGithub } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { ImProfile } from "react-icons/im";
@@ -27,7 +26,7 @@ const Home = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  });
+  }, []);
 
   return (
     <>
