@@ -29,8 +29,8 @@ const Nav = () => {
         }
       >
         <li className="px-8 py-4 text-xl lg:text-3xl ">Projects</li>
-        <li className="px-8 py-4 text-xl lg:text-3xl ">Contact</li>
         <li className="px-8 py-4 text-xl lg:text-3xl ">About</li>
+        <li className="px-8 py-4 text-xl lg:text-3xl ">Contact</li>
       </ul>
       <div className="absolute top-3 right-3 md:hidden ">
         <Spin
