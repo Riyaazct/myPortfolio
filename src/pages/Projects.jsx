@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section className="my-40 text-center ">
       <div className="h-[130px] w-full bg-[#FFFFFF] flex justify-center items-center pt-5">
-        <h2 className="text-3xl text-[#1E1E1E] font-bold ">
+        <h2 className="text-4xl text-[#1E1E1E] font-extrabold pb-8 lg:text-5xl">
           Projects
         </h2>
       </div>
