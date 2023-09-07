@@ -20,7 +20,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[rgba(31,74,35,0.68)] via-[rgba(31,74,35,0.64)] to-[rgba(31,74,35,0.2)] text-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-r from-[rgba(31,74,35,0.68)] via-[rgba(31,74,35,0.54)] to-[rgba(31,74,35,0.45)] text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-extrabold tracking-tight">
           Contact Me
