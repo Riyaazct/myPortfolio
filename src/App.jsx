@@ -3,6 +3,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Projects />
       <AboutMe />
       <Contact />
+      <Copyright />
     </div>
   );
 }

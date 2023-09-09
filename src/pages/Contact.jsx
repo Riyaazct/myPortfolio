@@ -1,12 +1,31 @@
-import React, { useState } from "react";
+/* eslint-disable no-undef */
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+  const form = useRef();
+
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+
+  const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
   });
+
+  const resetForm = () => {
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -15,12 +34,24 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can implement form submission logic here
+
+    emailjs
+      .sendForm(serviceId, templateId, form.current, userId)
+      .then(
+        (result) => {
+          console.log(result.text);
+          resetForm();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
     console.log(formData);
   };
 
   return (
-    <div className="bg-gradient-to-r from-[rgba(31,74,35,0.68)] via-[rgba(31,74,35,0.54)] to-[rgba(31,74,35,0.45)] text-white py-12 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-r from-[rgba(31,74,35,0.68)] via-[rgba(31,74,35,0.54)] to-[rgba(31,74,35,0.45)] text-white py-12 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-extrabold tracking-tight">
           Contact Me
@@ -28,7 +59,7 @@ const ContactForm = () => {
         <p className="mt-4 text-lg">
           Feel free to reach out to me using the form below.
         </p>
-        <form className="mt-6" onSubmit={handleSubmit}>
+        <form ref={form} className="mt-6" onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
               htmlFor="name"
@@ -42,7 +73,7 @@ const ContactForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm"
+              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm text-black"
             />
           </div>
           <div className="mb-4">
@@ -58,7 +89,7 @@ const ContactForm = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm"
+              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm text-black"
             />
           </div>
           <div className="mb-4">
@@ -74,7 +105,7 @@ const ContactForm = () => {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
-              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm"
+              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm text-black"
             />
           </div>
           <div className="mb-4">
@@ -90,7 +121,7 @@ const ContactForm = () => {
               value={formData.message}
               onChange={handleChange}
               rows="4"
-              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm"
+              className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm text-black"
             ></textarea>
           </div>
           <div className="mt-6">
@@ -103,7 +134,7 @@ const ContactForm = () => {
           </div>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

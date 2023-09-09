@@ -5,6 +5,9 @@ import Button from "../components/Button";
 import { SiGithub } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { ImProfile } from "react-icons/im";
+import { IoLogoJavascript } from "react-icons/io";
+import { PiFileHtmlBold } from "react-icons/pi";
+import { BiLogoTailwindCss, BiLogoReact } from "react-icons/bi";
 
 const Home = () => {
   const [iconSize, setIconSize] = useState(28);
@@ -67,6 +70,34 @@ const Home = () => {
           <div className="text-center">
             <Button title="View Projects" />
           </div>
+        </div>
+        <div className="absolute hidden lg:block left-9 top-10">
+          <IoLogoJavascript
+            size={160}
+            className="opacity-10 "
+            color="#1F4A23"
+          />
+        </div>
+        <div className="absolute hidden lg:block right-9 bottom-28 ">
+          <PiFileHtmlBold
+            size={130}
+            className="opacity-5 "
+            color="#1F4A23"
+          />
+        </div>
+        <div className="absolute hidden lg:block right-56 top-44 ">
+          <BiLogoTailwindCss
+            size={160}
+            className="opacity-10 "
+            color="#1F4A23"
+          />
+        </div>
+        <div className="hidden lg:block absolute left-[5%] bottom-36 ">
+          <BiLogoReact
+            size={160}
+            className="opacity-5 "
+            color="#1F4A23"
+          />
         </div>
       </section>
     </>
