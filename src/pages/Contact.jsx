@@ -51,7 +51,10 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-[rgba(31,74,35,0.68)] via-[rgba(31,74,35,0.54)] to-[rgba(31,74,35,0.45)] text-white py-12 px-4 sm:px-6 lg:px-8 relative">
+    <section
+      id="contact"
+      className="bg-gradient-to-r from-[#1f4a23f3] via-[#1f4a2386] to-[#1f4a23ee] text-white py-12 px-4 sm:px-6 lg:px-8 relative"
+    >
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-extrabold tracking-tight">
           Contact Me

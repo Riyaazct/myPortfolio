@@ -8,7 +8,7 @@ import { LiaToolsSolid } from "react-icons/lia";
 
 const AboutMe = () => {
   return (
-    <section className="bg-[#2E3B4E] w-full pb-10">
+    <section id="about" className="bg-[#2E3B4E] w-full pb-10">
       {/*  */}
 
       {/* Title */}

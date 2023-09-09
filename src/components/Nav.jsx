@@ -28,9 +28,15 @@ const Nav = () => {
             : "absolute top-0 h-screen left-[100%] ease-in duration-500 flex flex-col w-full md:h-min md:static md:flex-row justify-center items-center"
         }
       >
-        <li className="px-8 py-4 text-xl lg:text-3xl ">Projects</li>
-        <li className="px-8 py-4 text-xl lg:text-3xl ">About</li>
-        <li className="px-8 py-4 text-xl lg:text-3xl ">Contact</li>
+        <a href="#projects">
+          <li className="px-8 py-4 text-xl lg:text-3xl ">Projects</li>
+        </a>
+        <a href="#about">
+          <li className="px-8 py-4 text-xl lg:text-3xl ">About</li>
+        </a>
+        <a href="#contact">
+          <li className="px-8 py-4 text-xl lg:text-3xl ">Contact</li>{" "}
+        </a>
       </ul>
       <div className="absolute top-3 right-3 md:hidden ">
         <Spin
