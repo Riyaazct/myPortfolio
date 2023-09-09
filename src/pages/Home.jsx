@@ -8,6 +8,7 @@ import { ImProfile } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
 import { PiFileHtmlBold } from "react-icons/pi";
 import { BiLogoTailwindCss, BiLogoReact } from "react-icons/bi";
+import cv from "../assets/Riyaaz-Singh.pdf";
 
 const Home = () => {
   const [iconSize, setIconSize] = useState(28);
@@ -48,7 +49,7 @@ const Home = () => {
             </span>
           </h1>
           <div>
-            <p className="text-[#FFD700] text-lg lg:text-xl xl:text-2xl pt-2">
+            <p className="text-[#FFD700] text-lg lg:text-xl xl:text-2xl pt-2 lg:pl-1">
               Full-Stack Developer{" "}
               <span className="text-white">
                 Creating Digital Magic
@@ -56,16 +57,30 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <p className="text-lg text-white lg:text-xl xl:text-2xl">
+            <p className="text-lg text-white lg:text-xl xl:text-2xl lg:pl-1">
               Building the Future Web with{" "}
               <span className="text-[#FFD700]">React</span> and
               <span className="text-[#FFD700]"> Node.js</span>
             </p>
           </div>
           <div className="flex gap-6 p-4 mx-auto text-white xl:gap-9 md:gap-7 w-min lg:my-4">
-            <SiGithub size={iconSize} />
-            <BsLinkedin size={iconSize} />
-            <ImProfile size={iconSize} />
+            <a
+              href="https://github.com/Riyaazct"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SiGithub size={iconSize} />{" "}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/riyaaz-singh/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin size={iconSize} />{" "}
+            </a>
+            <a href={cv} target="_blank" rel="noreferrer">
+              <ImProfile size={iconSize} />{" "}
+            </a>
           </div>
           <div className="text-center">
             <Button title="View Projects" />
