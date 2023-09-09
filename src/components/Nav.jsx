@@ -29,13 +29,19 @@ const Nav = () => {
         }
       >
         <a href="#projects">
-          <li className="px-8 py-4 text-xl lg:text-3xl ">Projects</li>
+          <li className="px-8 py-4 text-xl lg:text-3xl hover:text-yellow-300">
+            Projects
+          </li>
         </a>
         <a href="#about">
-          <li className="px-8 py-4 text-xl lg:text-3xl ">About</li>
+          <li className="px-8 py-4 text-xl lg:text-3xl hover:text-yellow-300">
+            About
+          </li>
         </a>
         <a href="#contact">
-          <li className="px-8 py-4 text-xl lg:text-3xl ">Contact</li>{" "}
+          <li className="px-8 py-4 text-xl lg:text-3xl hover:text-yellow-300">
+            Contact
+          </li>{" "}
         </a>
       </ul>
       <div className="absolute top-3 right-3 md:hidden ">

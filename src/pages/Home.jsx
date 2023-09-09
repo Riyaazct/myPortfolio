@@ -65,6 +65,7 @@ const Home = () => {
           </div>
           <div className="flex gap-6 p-4 mx-auto text-white xl:gap-9 md:gap-7 w-min lg:my-4">
             <a
+              className="hover:text-yellow-300"
               href="https://github.com/Riyaazct"
               target="_blank"
               rel="noreferrer"
@@ -72,13 +73,19 @@ const Home = () => {
               <SiGithub size={iconSize} />{" "}
             </a>
             <a
+              className="hover:text-yellow-300"
               href="https://www.linkedin.com/in/riyaaz-singh/"
               target="_blank"
               rel="noreferrer"
             >
               <BsLinkedin size={iconSize} />{" "}
             </a>
-            <a href={cv} target="_blank" rel="noreferrer">
+            <a
+              className="hover:text-yellow-300"
+              href={cv}
+              target="_blank"
+              rel="noreferrer"
+            >
               <ImProfile size={iconSize} />{" "}
             </a>
           </div>
