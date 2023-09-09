@@ -53,7 +53,7 @@ const ContactForm = () => {
   return (
     <section
       id="contact"
-      className="bg-gradient-to-r from-[#1f4a23f3] via-[#1f4a2386] to-[#1f4a23ee] text-white py-12 px-4 sm:px-6 lg:px-8 relative"
+      className="bg-gradient-to-r from-[#1f4a23e8] via-[#1f4a2386] to-[#1f4a23ce] text-white py-12 px-4 sm:px-6 lg:px-8 relative"
     >
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-extrabold tracking-tight">
@@ -71,6 +71,7 @@ const ContactForm = () => {
               Your Name
             </label>
             <input
+              required
               type="text"
               id="name"
               name="name"
@@ -91,6 +92,7 @@ const ContactForm = () => {
               id="email"
               name="email"
               value={formData.email}
+              required
               onChange={handleChange}
               className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm text-black"
             />
@@ -106,6 +108,7 @@ const ContactForm = () => {
               type="text"
               id="subject"
               name="subject"
+              required
               value={formData.subject}
               onChange={handleChange}
               className="mt-1 p-2 w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-[#FFD700] focus:border-[#FFD700] sm:text-sm text-black"
@@ -121,6 +124,7 @@ const ContactForm = () => {
             <textarea
               id="message"
               name="message"
+              required
               value={formData.message}
               onChange={handleChange}
               rows="4"
