@@ -11,6 +11,7 @@ import {
   SiGithub,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { DiNodejs } from "react-icons/di";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -97,7 +98,7 @@ const Skills = () => {
           />
           <SkillIcon
             icon={
-              <FaNodeJs
+              <DiNodejs
                 size={
                   window.innerWidth <= 768
                     ? 35
@@ -111,7 +112,7 @@ const Skills = () => {
           />
           <SkillIcon
             icon={
-              <SiExpress
+              <FaNodeJs
                 size={
                   window.innerWidth <= 768
                     ? 35
