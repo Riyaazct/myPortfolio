@@ -29,14 +29,14 @@ const Projects = () => {
       {/* Project Container */}
       <div className="grid grid-cols-1 gap-4 md:p-5 mx-auto lg:grid-cols-2 lg:max-w-[1300px]">
         {/* Project Card 1 */}
-        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
+        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E]  lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#FFFFFF]">
             TV Show Explorer
           </h3>
           <img
             src={tvShowDomImg}
             alt="tv shows project"
-            className="max-w-2xl w-[90%] my-7"
+            className="max-w-2xl w-[90%] my-7 max-h-72"
           />
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
@@ -83,14 +83,14 @@ const Projects = () => {
         {/*end of project card 1 */}
 
         {/* Project Card 2 */}
-        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
+        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E]  lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#FFFFFF]">
             TV Show Explorer
           </h3>
           <img
             src={tvShowDomImg}
             alt="tv shows project"
-            className="max-w-2xl w-[90%] my-7"
+            className="max-w-2xl w-[90%] my-7 max-h-72"
           />
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
@@ -137,14 +137,14 @@ const Projects = () => {
         {/*end of project card 2 */}
 
         {/* Project Card 3 */}
-        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
+        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E]  lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#FFFFFF]">
             TV Show Explorer
           </h3>
           <img
             src={tvShowDomImg}
             alt="tv shows project"
-            className="max-w-2xl w-[90%] my-7"
+            className="max-w-2xl w-[90%] my-7 max-h-72"
           />
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on
@@ -191,14 +191,14 @@ const Projects = () => {
         {/*end of project card 3 */}
 
         {/* Project Card 4 */}
-        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
+        <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E]  lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
           <h3 className="py-4 text-2xl font-semibold text-[#FFFFFF]">
             TV Show Explorer
           </h3>
           <img
             src={tvShowDomImg}
             alt="tv shows project"
-            className="max-w-2xl w-[90%] my-7"
+            className="max-w-2xl w-[90%] my-7 max-h-72"
           />
           <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
             During my bootcamp, I completed a project focused on

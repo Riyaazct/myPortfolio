@@ -90,7 +90,7 @@ const Home = () => {
             </a>
           </div>
           <div className="text-center">
-            <Button title="View Projects" />
+            <Button title="View Projects" linkTo="#projects" />
           </div>
         </div>
         <div className="absolute hidden lg:block left-9 top-10">
