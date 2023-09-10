@@ -51,17 +51,17 @@ const Nav = () => {
         onClick={toggleMenu}
       >
         <a href="#projects">
-          <li className="px-8 py-4 text-xl lg:text-3xl hover:text-yellow-300">
+          <li className="px-8 py-4 text-xl text-white lg:text-3xl hover:opacity-80">
             Projects
           </li>
         </a>
         <a href="#about">
-          <li className="px-8 py-4 text-xl lg:text-3xl hover:text-yellow-300">
+          <li className="px-8 py-4 text-xl text-white lg:text-3xl hover:opacity-80">
             About
           </li>
         </a>
         <a href="#contact">
-          <li className="px-8 py-4 text-xl lg:text-3xl hover:text-yellow-300">
+          <li className="px-8 py-4 text-xl text-white lg:text-3xl hover:opacity-80">
             Contact
           </li>{" "}
         </a>
