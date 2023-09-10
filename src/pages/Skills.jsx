@@ -1,3 +1,4 @@
+// Import necessary components and icons
 import Button from "../components/Button";
 import { ImHtmlFive } from "react-icons/im";
 import SkillIcon from "../components/SkillIcon";
@@ -16,7 +17,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// Define a functional component called Skills
 const Skills = () => {
+  // Configure settings for the Slider component
   const settings = {
     dots: false,
     infinite: true,
@@ -32,14 +35,17 @@ const Skills = () => {
 
   return (
     <section className="text-center">
+      {/* Skills section header */}
       <h2 className="text-4xl text-[#1E1E1E] font-extrabold pb-8 lg:text-5xl">
         Skills
       </h2>
       <div className="pb-10 lg:pb-16">
+        {/* Slider component for displaying skill icons */}
         <Slider
           className="max-w-full mx-auto text-xs lg:max-w-7xl sm:max-w-[90%]"
           {...settings}
         >
+          {/* SkillIcon components for individual skills */}
           <SkillIcon
             icon={
               <ImHtmlFive
@@ -166,9 +172,10 @@ const Skills = () => {
             }
             label={"Github"}
           />
-          {/* </div> */}
         </Slider>
+        {/* End of Slider component */}
       </div>
+      {/* Button for Contact Me */}
       <Button title="Contact Me" linkTo="#contact" />
     </section>
   );

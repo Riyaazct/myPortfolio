@@ -1,3 +1,4 @@
+// Import necessary dependencies
 import {
   FaCode,
   FaLightbulb,
@@ -6,11 +7,10 @@ import {
 } from "react-icons/fa";
 import { LiaToolsSolid } from "react-icons/lia";
 
+// Define a functional component called AboutMe
 const AboutMe = () => {
   return (
     <section id="about" className="bg-[#2E3B4E] w-full pb-10">
-      {/*  */}
-
       {/* Title */}
       <div className="h-[8.062rem] bg-[#1F4A23] text-white text-center flex flex-col justify-center border-b-2 border-b-[#1E1E1E] lg:p-20 ">
         <h2 className="text-2xl font-semibold md:text-3xl md:p-2 xl:text-4xl xl:p-4">
@@ -24,10 +24,8 @@ const AboutMe = () => {
 
       <div className="flex flex-col gap-5 px-7 mt-20 md:flex-row xl:max-w-[90%] lg:mx-auto lg:gap-10 lg:pt-14 lg:justify-center">
         {/* Card container */}
-
         <div className="lg:hover:bg-[#1F4A23] text-left px-2 py-6 rounded-md shadow-md drop-shadow-xl shadow-black">
           {/* Card 1 */}
-
           <h3 className="text-xl text-[#1E1E1E] font-bold pb-2 ml-2 lg:text-2xl xl:text-3xl">
             Skills and Background
           </h3>
@@ -50,17 +48,14 @@ const AboutMe = () => {
               Natural aptitude for solving tech puzzles
             </p>
           </div>
-
           {/* End of card 1 */}
         </div>
 
         <div className="lg:hover:bg-[#1F4A23] text-left px-3 pb-6 pt-2 rounded-md shadow-md drop-shadow-xl shadow-black">
           {/* Card 2 */}
-
           <h4 className="text-xl text-[#1E1E1E] font-bold pt-3 pb-2 ml-2 lg:text-2xl xl:text-3xl">
             Journey and Discovery
           </h4>
-
           <div className="flex items-center text-sm text-white">
             <p className="max-w-lg p-2 text-[0.98rem] xl:text-lg text-left ">
               From a curious student to a passionate web developer, my
@@ -69,14 +64,14 @@ const AboutMe = () => {
               eventually led me to the world of coding.
             </p>
           </div>
-
           {/* End of card 2 */}
         </div>
       </div>
+
       <div className="max-w-[1200px] lg:mx-auto">
-        {/* Bootcamp experience  */}
+        {/* Bootcamp experience */}
         <div className="max-w-[90%] mx-auto text-left mt-16 p-4 lg:mt-20">
-          <h3 className=" text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
+          <h3 className="text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Bootcamp Experience
           </h3>
           <p className="text-white text-[1.1rem] xl:text-lg">
@@ -90,7 +85,7 @@ const AboutMe = () => {
 
         {/* Personal qualities and values */}
         <div className="max-w-[90%] mx-auto text-left mt-8 p-4 lg:mt-14">
-          <h3 className=" text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
+          <h3 className="text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Personal qualities and values
           </h3>
           <div className="flex items-center py-1 text-white">
@@ -114,9 +109,9 @@ const AboutMe = () => {
         </div>
         {/* End of Personal qualities and values */}
 
-        {/* Aspirations and Conclusion  */}
+        {/* Aspirations and Conclusion */}
         <div className="max-w-[90%] mx-auto text-left mt-8 p-4 lg:mt-14">
-          <h3 className=" text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
+          <h3 className="text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Aspirations and Conclusion
           </h3>
           <p className="text-white text-[1.1rem] xl:text-lg">
