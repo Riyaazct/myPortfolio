@@ -4,11 +4,12 @@ import Nav from "../components/Nav";
 import Button from "../components/Button";
 import EmailIcon from "../components/EmailIcon";
 
-import { SiGithub } from "react-icons/si";
+// import { SiGithub } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { ImProfile } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
 import { PiFileHtmlBold } from "react-icons/pi";
+import { FaGithub } from "react-icons/fa";
 import { BiLogoTailwindCss, BiLogoReact } from "react-icons/bi";
 import cv from "../assets/Riyaaz-Singh.pdf";
 
@@ -72,7 +73,10 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <SiGithub size={iconSize} />{" "}
+              {" "}
+              <span title="Click to view Github profile">
+                <FaGithub size={iconSize} />{" "}
+              </span>
             </a>
             <a
               className="hover:opacity-80"
@@ -80,7 +84,9 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <BsLinkedin size={iconSize} />{" "}
+              <span title="Click to view LinkedIn Profile">
+                <BsLinkedin size={iconSize} />{" "}
+              </span>
             </a>
             <a
               className="hover:opacity-80"
@@ -88,7 +94,9 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <ImProfile size={iconSize} />{" "}
+              <span title="Click to view Resume">
+                <ImProfile size={iconSize} />{" "}
+              </span>
             </a>
             <EmailIcon
               iconSize={iconSize}

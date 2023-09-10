@@ -29,6 +29,7 @@ const EmailIcon = ({ email, iconSize }) => {
         <AiOutlineMail
           data-tooltip-id="email-tooltip"
           data-tooltip-content="Email copied"
+          data-tooltip-delay-hide="1500"
           size={iconSize}
         />
       </span>
