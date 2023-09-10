@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 import Nav from "../components/Nav";
 import Button from "../components/Button";
+import EmailIcon from "../components/EmailIcon";
+
 import { SiGithub } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { ImProfile } from "react-icons/im";
@@ -88,6 +90,10 @@ const Home = () => {
             >
               <ImProfile size={iconSize} />{" "}
             </a>
+            <EmailIcon
+              iconSize={iconSize}
+              email="riyaaz@riyaazscodecraft.co.za"
+            />
           </div>
           <div className="text-center">
             <Button title="View Projects" linkTo="#projects" />
