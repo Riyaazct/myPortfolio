@@ -6,7 +6,6 @@ import {
   SiCss3,
   SiJavascript,
   SiReact,
-  SiExpress,
   SiPostgresql,
   SiTailwindcss,
   SiGithub,
