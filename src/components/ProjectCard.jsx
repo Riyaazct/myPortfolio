@@ -19,8 +19,12 @@ const ProjectCard = ({
           {title}
         </h3>
         <img
+          width="1000px"
+          height="600px"
           src={image}
           alt={title}
+          title={title}
+          loading="lazy"
           className="max-w-2xl w-[90%] my-7 max-h-72"
         />
         <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">

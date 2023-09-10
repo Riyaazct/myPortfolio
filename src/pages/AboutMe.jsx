@@ -28,9 +28,9 @@ const AboutMe = () => {
         <div className="lg:hover:bg-[#1F4A23] text-left px-2 py-6 rounded-md shadow-md drop-shadow-xl shadow-black">
           {/* Card 1 */}
 
-          <h4 className="text-xl text-[#1E1E1E] font-bold pb-2 ml-2 lg:text-2xl xl:text-3xl">
+          <h3 className="text-xl text-[#1E1E1E] font-bold pb-2 ml-2 lg:text-2xl xl:text-3xl">
             Skills and Background
-          </h4>
+          </h3>
           <div className="flex items-center justify-start p-2 text-[0.98rem] xl:text-lg text-white">
             <FaCode color="#FFFFFF" size={25} />
             <p className="ml-2 ">
