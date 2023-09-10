@@ -169,7 +169,7 @@ const Skills = () => {
           {/* </div> */}
         </Slider>
       </div>
-      <Button title="Contact Me" />
+      <Button title="Contact Me" linkTo="#contact" />
     </section>
   );
 };
