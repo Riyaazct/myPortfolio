@@ -96,28 +96,28 @@ const Home = () => {
         <div className="absolute hidden lg:block left-9 top-10">
           <IoLogoJavascript
             size={160}
-            className="opacity-10 "
+            className="opacity-10 hover:opacity-[0.15] "
             color="#1F4A23"
           />
         </div>
         <div className="absolute hidden lg:block right-9 bottom-28 ">
           <PiFileHtmlBold
             size={130}
-            className="opacity-5 "
+            className="opacity-5 hover:opacity-[0.07]"
             color="#1F4A23"
           />
         </div>
         <div className="absolute hidden lg:block right-56 top-44 ">
           <BiLogoTailwindCss
             size={160}
-            className="opacity-10 "
+            className="opacity-[0.06] hover:opacity-[0.13]"
             color="#1F4A23"
           />
         </div>
         <div className="hidden lg:block absolute left-[5%] bottom-36 ">
           <BiLogoReact
             size={160}
-            className="opacity-5 "
+            className="opacity-5 hover:opacity-[0.07]"
             color="#1F4A23"
           />
         </div>
