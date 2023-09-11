@@ -30,7 +30,7 @@ const EmailIcon = ({ email, iconSize }) => {
       {/* Render an email icon as a clickable element */}
       <span
         ref={emailIconRef}
-        className="cursor-pointer"
+        className="cursor-pointer hover:opacity-80"
         title="Click to copy email address"
       >
         {/* Render the email icon using the AiOutlineMail component */}

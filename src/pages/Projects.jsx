@@ -14,7 +14,7 @@ const Projects = () => {
       </div>
 
       {/* Project Container */}
-      <div className="grid grid-cols-1 gap-4 md:p-5 mx-auto lg:grid-cols-2 lg:max-w-[1300px]">
+      <div className="grid grid-cols-1 gap-4 md:p-5 mx-auto lg:grid-cols-2 lg:max-w-[1350px]">
         {/* Map through projectData and create ProjectCard components */}
         {projectData.map(
           (
