@@ -28,7 +28,7 @@ const ProjectCard = ({
           alt={title}
           title={title}
           loading="lazy"
-          className="max-w-2xl w-[90%] my-7 max-h-72"
+          className="max-w-2xl w-[90%] my-7 max-h-72 object-cover object-top"
         />
         {/* Display the project description */}
         <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">

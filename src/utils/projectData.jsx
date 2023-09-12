@@ -8,24 +8,18 @@ const projectData = [
     image: project01,
     description: (
       <>
-        In our final project for an NGO, a 7-member team, including 4
-        full-stack student developers, 2 volunteer tech leads, and
-        scrum master, worked collaboratively following{" "}
-        <span className="text-[#FFD700] font-medium">agile</span>{" "}
-        principles. I managed GitHub hosting, resolving numerous merge
-        conflicts as we navigated{" "}
-        <span className="text-[#FFD700] font-medium">GitHub</span>. I
-        was responsible for creating essential pages like 'About Us'
-        and 'Our Photos.' These pages facilitated efficient data
-        storage and image retrieval from the database. I also
-        contributed to the admin page for training material management
-        in the database. We utilized{" "}
+        In our final NGO project, I was part of a collaborative team
+        of seven, including four student developers, two tech leads,
+        and a scrum master, following agile practices. My
+        responsibilities encompassed GitHub hosting, core page
+        creation ('About Us' and 'Our Photos'), and contributing to
+        the admin page for training material management in the
+        database. We employed{" "}
         <span className="text-[#FFD700] font-medium">
-          JavaScript, React, Node.js, Express, PostgreSQL, and Vanilla
-          CSS
-        </span>{" "}
-        to deliver a successful project, showcasing our teamwork and
-        technical skills.
+          {" "}
+          JavaScript, React, Node.js, Express, PostgreSQL, and CSS
+        </span>
+        , highlighting both our teamwork and technical capabilities.
       </>
     ),
     technologies: [
