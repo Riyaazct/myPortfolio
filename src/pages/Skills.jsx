@@ -30,6 +30,18 @@ const Skills = () => {
     autoplay: true,
     touchMove: true,
     cssEase: "linear",
+    arrows: false,
+    centerMode: true,
+    centerPadding: "5px",
+    responsive: [
+      {
+        breakpoint: 580,
+        settings: {
+          slidesToScroll: 3,
+          slidesToShow: 6,
+        },
+      },
+    ],
   };
 
   return (
