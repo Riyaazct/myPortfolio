@@ -17,7 +17,7 @@ const ProjectCard = ({
       {/* Start of Project Card */}
       <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
         {/* Display the project title */}
-        <h3 className="py-4 text-2xl font-semibold text-[#FFFFFF]">
+        <h3 className="pt-4 text-2xl lg:text-3xl font-semibold text-[#FFFFFF]">
           {title}
         </h3>
         {/* Display the project image */}
@@ -35,7 +35,7 @@ const ProjectCard = ({
           {description}
         </p>
         {/* Display the list of technologies used */}
-        <ul className="flex gap-5 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 rounded-md">
+        <ul className="flex max-w-[90%] md:max-w-full gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md">
           {technologies.map((tech, key) => (
             <li key={key}>{tech}</li>
           ))}

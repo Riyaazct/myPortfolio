@@ -51,13 +51,13 @@ const Nav = () => {
 
   // Render the navigation menu and hamburger icon
   return (
-    <div className="w-full text-[#ffffff] font-bold absolute top-0 left-0 right-0">
+    <div className="w-full text-[#ffffff] font-bold absolute top-0 ">
       {/* Render the navigation menu */}
       <ul
         className={
           isOpen
-            ? "ease-in duration-500 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen bg-[#2E3B4E] z-50"
-            : "absolute top-0 h-screen left-[100%] ease-in duration-500 flex flex-col w-full md:h-min md:static md:flex-row justify-center items-center"
+            ? "ease-in duration-300 fixed left-0 top-0 flex flex-col justify-center items-center w-full h-screen bg-[#2E3B4E] z-50"
+            : "absolute top-0 h-screen left-[-100%] ease-in duration-500 w-full md:h-min md:static md:flex-row justify-center items-center flex flex-col "
         }
         onClick={toggleMenu}
       >

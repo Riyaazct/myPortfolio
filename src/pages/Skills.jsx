@@ -41,7 +41,7 @@ const Skills = () => {
       <div className="pb-10 lg:pb-16">
         {/* Slider component for displaying skill icons */}
         <Slider
-          className="max-w-full mx-auto text-xs lg:max-w-7xl sm:max-w-[90%]"
+          className="md:max-w-full mx-auto text-xs lg:max-w-7xl max-w-[85%]"
           {...settings}
         >
           {/* SkillIcon components for individual skills */}
