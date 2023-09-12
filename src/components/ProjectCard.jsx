@@ -13,7 +13,7 @@ const ProjectCard = ({
   githubLink,
 }) => {
   return (
-    <div>
+    <div className="my-auto">
       {/* Start of Project Card */}
       <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
         {/* Display the project title */}

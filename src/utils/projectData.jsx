@@ -1,5 +1,6 @@
 import project01 from "../assets/images/project01.png";
 import project02 from "../assets/images/project02.png";
+import project03 from "../assets/images/project03.png";
 
 const projectData = [
   {
@@ -7,30 +8,24 @@ const projectData = [
     image: project01,
     description: (
       <>
-        "Our final project for an NGO partner was a collaborative
-        effort involving a team of 7, including 4 full-stack
-        developers (students), a front-end and backend tech lead, and
-        a scrum master (volunteers). We diligently followed agile
-        methodologies to ensure project success. I took responsibility
-        for hosting the website on my GitHub repository. This role
-        also involved efficiently managing merge conflicts,
-        particularly during the initial learning phase of GitHub
-        collaboration. I played a vital role in developing several key
-        pages, including the 'About Us' page and all its' contents and
-        the 'Our Photos' page, where I meticulously organized and
-        stored data for efficient image loading from the database.
-        Additionally, I contributed to the creation of the admin page,
-        enabling the addition and management of training materials
-        within the database. The technologies employed in this project
-        encompassed{" "}
+        In our final project for an NGO, a 7-member team, including 4
+        full-stack student developers, 2 volunteer tech leads, and
+        scrum master, worked collaboratively following{" "}
+        <span className="text-[#FFD700] font-medium">agile</span>{" "}
+        principles. I managed GitHub hosting, resolving numerous merge
+        conflicts as we navigated{" "}
+        <span className="text-[#FFD700] font-medium">GitHub</span>. I
+        was responsible for creating essential pages like 'About Us'
+        and 'Our Photos.' These pages facilitated efficient data
+        storage and image retrieval from the database. I also
+        contributed to the admin page for training material management
+        in the database. We utilized{" "}
         <span className="text-[#FFD700] font-medium">
-          {" "}
           JavaScript, React, Node.js, Express, PostgreSQL, and Vanilla
           CSS
-        </span>
-        . Our collective effort resulted in the successful completion
-        of the project, demonstrating our ability to work cohesively
-        and deliver a valuable solution to our NGO partner."
+        </span>{" "}
+        to deliver a successful project, showcasing our teamwork and
+        technical skills.
       </>
     ),
     technologies: [
@@ -81,7 +76,7 @@ const projectData = [
   },
   {
     title: "TV Show Explorer",
-    image: project01,
+    image: project03,
     description: (
       <>
         During my bootcamp, I completed a project focused on
@@ -104,7 +99,7 @@ const projectData = [
   },
   {
     title: "TV Show Explorer",
-    image: project01,
+    image: project03,
     description: (
       <>
         During my bootcamp, I completed a project focused on
