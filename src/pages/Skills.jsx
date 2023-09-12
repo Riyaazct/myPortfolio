@@ -35,7 +35,7 @@ const Skills = () => {
     centerPadding: "5px",
     responsive: [
       {
-        breakpoint: 580,
+        breakpoint: 600,
         settings: {
           slidesToScroll: 3,
           slidesToShow: 6,
