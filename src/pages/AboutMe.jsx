@@ -72,10 +72,10 @@ const AboutMe = () => {
         {/* Bootcamp experience */}
         <div className="max-w-[90%] mx-auto text-left mt-16 p-4 lg:mt-20">
           <h3 className="text-[#1E1E1E] text-2xl font-bold py-2 lg:text-center lg:pb-7 lg:text-3xl">
-            Bootcamp Experience
+            Software development Course Experience
           </h3>
           <p className="text-white text-[1.1rem] xl:text-lg">
-            Diving into an intensive 12-month bootcamp was a turning
+            Diving into an intensive 12-month course was a turning
             point. From mastering JavaScript to building interactive
             React applications, every challenge and triumph has shaped
             my skill set and determination.

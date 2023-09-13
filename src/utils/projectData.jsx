@@ -42,8 +42,8 @@ const projectData = [
     image: project02,
     description: (
       <>
-        After graduating from a bootcamp, I embarked on a project
-        using{" "}
+        After graduating from the software development course, I
+        embarked on a project using{" "}
         <span className="text-[#FFD700] font-medium">
           JavaScript, React, and Tailwind CSS
         </span>
@@ -74,9 +74,9 @@ const projectData = [
     image: project03,
     description: (
       <>
-        During my bootcamp, I completed a project focused on
-        manipulating the DOM and fetching data from the TVmaze API
-        using{" "}
+        During the software development course, I completed a project
+        focused on manipulating the DOM and fetching data from the
+        TVmaze API using{" "}
         <span className="text-[#FFD700] font-medium">
           HTML, CSS and JavaScript
         </span>
