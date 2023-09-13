@@ -113,8 +113,8 @@ const projectData = [
       </>
     ),
     technologies: ["Front End", "JavaScript", "Tailwindcss", "CSS"],
-    liveLink: "https://cyf-riyaazct-tv.netlify.app/",
-    githubLink: "https://github.com/Riyaazct/tv-show-dom-project/",
+    liveLink: "https://bespoke-donut-8693cf.netlify.app/",
+    githubLink: "https://github.com/Riyaazct/myPortfolio",
   },
 ];
 
