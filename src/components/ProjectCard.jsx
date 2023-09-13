@@ -15,7 +15,7 @@ const ProjectCard = ({
   return (
     <div className="my-auto">
       {/* Start of Project Card */}
-      <div className="w-full flex flex-col items-center p-1 md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700">
+      <div className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700 lg:min-h-[85vh]">
         {/* Display the project title */}
         <h3 className="pt-4 text-2xl lg:text-3xl font-semibold text-[#FFFFFF]">
           {title}
@@ -28,7 +28,7 @@ const ProjectCard = ({
           alt={title}
           title={title}
           loading="lazy"
-          className="max-w-2xl w-[90%] my-7 max-h-72 object-cover object-top"
+          className="max-w-2xl w-[90%] my-7 max-h-72 object-cover object-top lg:rounded-md"
         />
         {/* Display the project description */}
         <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
@@ -41,7 +41,7 @@ const ProjectCard = ({
           ))}
         </ul>
         {/* Display links to the live project and GitHub repository */}
-        <div className="flex gap-6 mb-5 text-white">
+        <div className="flex gap-6 mt-5 text-white">
           <a href={liveLink} target="_blank" rel="noreferrer">
             <div className="flex flex-col items-center mt-3">
               <SlLink size={22} color="#FFD700" />
