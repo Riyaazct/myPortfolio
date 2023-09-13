@@ -1,6 +1,7 @@
 import project01 from "../assets/images/project01.png";
 import project02 from "../assets/images/project02.png";
 import project03 from "../assets/images/project03.png";
+import project04 from "../assets/images/project04.png";
 
 const projectData = [
   {
@@ -87,30 +88,29 @@ const projectData = [
         technologies.
       </>
     ),
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["Front End", "HTML", "CSS", "JavaScript"],
     liveLink: "https://cyf-riyaazct-tv.netlify.app/",
     githubLink: "https://github.com/Riyaazct/tv-show-dom-project/",
   },
   {
-    title: "TV Show Explorer",
-    image: project03,
+    title: "My Portfolio",
+    image: project04,
     description: (
       <>
-        During my bootcamp, I completed a project focused on
-        manipulating the DOM and fetching data from the TVmaze API
-        using{" "}
-        <span className="text-[#FFD700] font-medium">
-          HTML, CSS and JavaScript
-        </span>
-        . The TV Show Explorer allowed users to search and explore TV
-        shows, displaying details such as titles, genres, ratings, and
-        runtime in a dynamic and user-friendly interface. This project
-        showcased my ability to work with external APIs and create
-        engaging web applications using fundamental web development
-        technologies.
+        In my portfolio project, I've integrated a range of features
+        to elevate user engagement and functionality. You'll discover
+        interactive project cards that provide detailed insights into
+        my work. The design is fully responsive, ensuring a smooth
+        browsing experience across various devices. Navigate
+        effortlessly with the user-friendly menu and a contact form,
+        allowing visitors to reach out and connect with me directly.
+        Explore my skills, projects, and get in touch through this
+        comprehensive platform, built using JavaScript, React,
+        Tailwind and CSS to deliver a seamless and visually appealing
+        experience.
       </>
     ),
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["Front End", "JavaScript", "Tailwindcss", "CSS"],
     liveLink: "https://cyf-riyaazct-tv.netlify.app/",
     githubLink: "https://github.com/Riyaazct/tv-show-dom-project/",
   },
