@@ -12,7 +12,7 @@ const AboutMe = () => {
   return (
     <section id="about" className="bg-[#2E3B4E] w-full pb-10">
       {/* Title */}
-      <div className="h-[8.062rem] bg-[#1F4A23] text-white text-center flex flex-col justify-center border-b-2 border-b-[#1E1E1E] lg:p-20 ">
+      <div className="h-[8.062rem] bg-[#1F4A23] text-[#FFFFFF] text-center flex flex-col justify-center border-b-2 border-b-[#1E1E1E] lg:p-20 ">
         <h2 className="text-2xl font-semibold md:text-3xl md:p-2 xl:text-4xl xl:p-4">
           Get to Know Me
         </h2>
@@ -26,23 +26,23 @@ const AboutMe = () => {
         {/* Card container */}
         <div className="lg:hover:bg-[#1F4A23] text-left px-2 py-6 rounded-md shadow-md drop-shadow-xl shadow-black">
           {/* Card 1 */}
-          <h3 className="text-xl text-[#1E1E1E] font-bold pb-2 ml-2 lg:text-2xl xl:text-3xl">
+          <h3 className="text-xl text-[#FFFFFF] font-bold pb-2 ml-2 lg:text-2xl xl:text-3xl">
             Skills and Background
           </h3>
-          <div className="flex items-center justify-start p-2 text-[0.98rem] xl:text-lg text-white">
+          <div className="flex items-center justify-start p-2 text-[0.98rem] xl:text-lg text-[#FFFFFF]">
             <FaCode color="#FFFFFF" size={25} />
             <p className="ml-2 ">
               JavaScript, React, Node.js, PostgreSQL
             </p>
           </div>
-          <div className="flex items-center justify-start p-2 text-[0.98rem] xl:text-lg text-white">
+          <div className="flex items-center justify-start p-2 text-[0.98rem] xl:text-lg text-[#FFFFFF]">
             <FaLightbulb color="#FFFFFF" size={25} />
             <p className="ml-2 ">
               Passionate about technology since early high school
               years.
             </p>
           </div>
-          <div className="flex items-center justify-start px-2 pb-2 pt-1 text-[0.98rem] xl:text-lg text-white">
+          <div className="flex items-center justify-start px-2 pb-2 pt-1 text-[0.98rem] xl:text-lg text-[#FFFFFF]">
             <FaPuzzlePiece color="#FFFFFF" size={25} />
             <p className="mt-1 ml-2 ">
               Natural aptitude for solving tech puzzles
@@ -53,10 +53,10 @@ const AboutMe = () => {
 
         <div className="lg:hover:bg-[#1F4A23] text-left px-3 pb-6 pt-2 rounded-md shadow-md drop-shadow-xl shadow-black">
           {/* Card 2 */}
-          <h4 className="text-xl text-[#1E1E1E] font-bold pt-3 pb-2 ml-2 lg:text-2xl xl:text-3xl">
+          <h4 className="text-xl text-[#FFFFFF] font-bold pt-3 pb-2 ml-2 lg:text-2xl xl:text-3xl">
             Journey and Discovery
           </h4>
-          <div className="flex items-center text-sm text-white">
+          <div className="flex items-center text-sm text-[#FFFFFF]">
             <p className="max-w-lg p-2 text-[0.98rem] xl:text-lg text-left ">
               From a curious student to a passionate web developer, my
               journey has been fueled by the wonders of technology.
@@ -71,10 +71,10 @@ const AboutMe = () => {
       <div className="max-w-[1200px] lg:mx-auto">
         {/* Bootcamp experience */}
         <div className="max-w-[90%] mx-auto text-left mt-16 p-4 lg:mt-20">
-          <h3 className="text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
+          <h3 className="text-[#FFFFFF] text-2xl font-bold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Bootcamp Experience
           </h3>
-          <p className="text-white text-[1.1rem] xl:text-lg">
+          <p className="text-[#FFFFFF] text-[1.1rem] xl:text-lg">
             Diving into an intensive 12-month bootcamp was a turning
             point. From mastering JavaScript to building interactive
             React applications, every challenge and triumph has shaped
@@ -85,24 +85,24 @@ const AboutMe = () => {
 
         {/* Personal qualities and values */}
         <div className="max-w-[90%] mx-auto text-left mt-8 p-4 lg:mt-14">
-          <h3 className="text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
+          <h3 className="text-[#FFFFFF] text-2xl font-bold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Personal qualities and values
           </h3>
-          <div className="flex items-center py-1 text-white">
+          <div className="flex items-center py-1 text-[#FFFFFF]">
             <LiaToolsSolid size={25} />
-            <p className="text-white text-[1.1rem] ml-2 xl:text-lg">
+            <p className="text-[#FFFFFF] text-[1.1rem] ml-2 xl:text-lg">
               Tenacious problem solver, no challenge is too great
             </p>
           </div>
-          <div className="flex items-center py-1 text-white">
+          <div className="flex items-center py-1 text-[#FFFFFF]">
             <FaUsers size={25} />
-            <p className="text-white text-[1.1rem] ml-2 xl:text-lg">
+            <p className="text-[#FFFFFF] text-[1.1rem] ml-2 xl:text-lg">
               Collaborative and adaptable team player
             </p>
           </div>
-          <div className="flex items-center py-1 text-white">
+          <div className="flex items-center py-1 text-[#FFFFFF]">
             <FaPuzzlePiece size={25} />
-            <p className="text-white text-[1.1rem] ml-2 xl:text-lg pt-1">
+            <p className="text-[#FFFFFF] text-[1.1rem] ml-2 xl:text-lg pt-1">
               Natural aptitude for solving tech puzzles
             </p>
           </div>
@@ -111,10 +111,10 @@ const AboutMe = () => {
 
         {/* Aspirations and Conclusion */}
         <div className="max-w-[90%] mx-auto text-left mt-8 p-4 lg:mt-14">
-          <h3 className="text-[#1E1E1E] text-2xl font-semibold py-2 lg:text-center lg:pb-7 lg:text-3xl">
+          <h3 className="text-[#FFFFFF] text-2xl font-bold py-2 lg:text-center lg:pb-7 lg:text-3xl">
             Aspirations and Conclusion
           </h3>
-          <p className="text-white text-[1.1rem] xl:text-lg">
+          <p className="text-[#FFFFFF] text-[1.1rem] xl:text-lg">
             My journey in web development is just beginning. With
             authenticity, integrity, and a relentless drive to excel,
             I'm excited to contribute to projects that make an impact.
