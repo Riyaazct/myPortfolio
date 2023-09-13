@@ -105,9 +105,11 @@ const projectData = [
         effortlessly with the user-friendly menu and a contact form,
         allowing visitors to reach out and connect with me directly.
         Explore my skills, projects, and get in touch through this
-        comprehensive platform, built using JavaScript, React,
-        Tailwind and CSS to deliver a seamless and visually appealing
-        experience.
+        comprehensive platform, built using{" "}
+        <span className="text-[#FFD700] font-medium">
+          JavaScript, React, Tailwind and CSS
+        </span>{" "}
+        to deliver a seamless and visually appealing experience.
       </>
     ),
     technologies: ["Front End", "JavaScript", "Tailwindcss", "CSS"],
