@@ -21,6 +21,12 @@ const projectData = [
           JavaScript, React, Node.js, Express, PostgreSQL, and CSS
         </span>
         , highlighting both our teamwork and technical capabilities.
+        <br />
+        <br />
+        <strong>
+          NB! Please allow 1 minute for the server to boot up when
+          viewing the live link.
+        </strong>
       </>
     ),
     technologies: [
