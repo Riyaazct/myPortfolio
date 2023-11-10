@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import project01 from "../assets/images/project01.png";
 import project02 from "../assets/images/project02.png";
 import project03 from "../assets/images/project03.png";
 import project04 from "../assets/images/project04.png";
+import project05 from "../assets/images/project05.png";
 
 const projectData = [
   {
@@ -121,6 +123,65 @@ const projectData = [
     technologies: ["Front End", "JavaScript", "Tailwindcss", "CSS"],
     liveLink: "https://bespoke-donut-8693cf.netlify.app/",
     githubLink: "https://github.com/Riyaazct/myPortfolio",
+  },
+  {
+    title: "Online Quotation Generator",
+    image: project05,
+    description: (
+      <>
+        Currently working on this Fullstack{" "}
+        <span className="text-[#FFD700] font-medium">
+          React, NodeJs and PostgreSQL project.
+        </span>{" "}
+        <br />
+        My intention is to create an online platform that solves an
+        issue where manufacturers of steel structures for home
+        security spend countless hours working on quotations. I'd like
+        to minimize this by creating a webapp, that will serve not
+        only as a means to minimizing time spent in doing quotations,
+        but also a database of clients, suppliers and materials all in
+        one. The business owner should also be able to send quotations
+        directly from the webapp in pdf format and manage stock
+        inventory and more... <br />
+        Thus far I have completed the authentication and authorization
+        aspect of it using{" "}
+        <span className="text-[#FFD700] font-medium">
+          Jwt/Refresh Tokens.
+        </span>{" "}
+        <br />A lot of planning is needed for the rest of the project
+        so I'm spending time in figma for a basic design and also
+        learning
+        <span className="text-[#FFD700] font-medium">
+          {" "}
+          Redux
+        </span>{" "}
+        because It seems it would be a great fit for a project with a
+        scope such as this.
+        <br />
+        <br />
+        <strong>Login Details for testing:</strong> <br />
+        Email: test@gmail.com <br />
+        password: 12345678
+        <br />
+        <br />
+        <strong>
+          NB! Password requirement purposely left as unsecure(for now)
+        </strong>
+      </>
+    ),
+    technologies: [
+      "Full Stack",
+      "React",
+      "JavaScript",
+      "NodeJs",
+      "PostgreSQL",
+      "Bootstrap 4",
+      "CSS",
+      "Formik",
+      "Yup",
+    ],
+    liveLink: "https://all-in-one-quotation-generator.vercel.app/",
+    githubLink: "",
   },
 ];
 
