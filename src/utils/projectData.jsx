@@ -121,7 +121,7 @@ const projectData = [
       </>
     ),
     technologies: ["Front End", "JavaScript", "Tailwindcss", "CSS"],
-    liveLink: "https://bespoke-donut-8693cf.netlify.app/",
+    liveLink: "",
     githubLink: "https://github.com/Riyaazct/myPortfolio",
   },
   {
