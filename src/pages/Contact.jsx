@@ -7,7 +7,7 @@ const ContactForm = () => {
   // Define your service, template, and user IDs using environment variables
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-  const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
   // Initialize the form data state
   const [formData, setFormData] = useState({
@@ -39,7 +39,7 @@ const ContactForm = () => {
 
     // Use the emailjs library to send the form data
     emailjs
-      .sendForm(serviceId, templateId, form.current, userId)
+      .sendForm(serviceId, templateId, form.current, publicKey)
       .then(
         (result) => {
           console.log(result.text);
