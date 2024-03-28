@@ -72,6 +72,7 @@ const projectData = [
         </p>
       </>
     ),
+    projectType: "Front-end",
     technologies: ["Front End", "React", "JavaScript", "Tailwind"],
     OtherTechnologies: ["Emailjs", "SEO"],
     liveLink: "https://exploringsa.co.za/",
@@ -97,7 +98,7 @@ const projectData = [
         technologies.
       </>
     ),
-    projectType: "Front-end",
+    projectType: "JavaScript DOM",
     technologies: ["Front End", "HTML", "CSS", "JavaScript"],
     otherTechnologies: ["JavaScript DOM"],
     liveLink: "https://cyf-riyaazct-tv.netlify.app/",

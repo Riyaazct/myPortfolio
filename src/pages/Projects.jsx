@@ -25,6 +25,8 @@ const Projects = () => {
               technologies,
               liveLink,
               githubLink,
+              projectType,
+              path,
             },
             key
           ) => (
@@ -36,6 +38,8 @@ const Projects = () => {
               technologies={technologies}
               liveLink={liveLink}
               githubLink={githubLink}
+              projectType={projectType}
+              path={path}
             />
           )
         )}

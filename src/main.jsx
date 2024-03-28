@@ -15,7 +15,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path={"/"} element={<App />} />
         {projectData.map(
           (
-            { path, title, image, description, technologies },
+            {
+              path,
+              title,
+              image,
+              description,
+              technologies,
+              liveLink,
+              githubLink,
+            },
             index
           ) => (
             <Route
@@ -28,6 +36,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                   image={image}
                   description={description}
                   technologies={technologies}
+                  githubLink={githubLink}
+                  liveLink={liveLink}
                 />
               }
             />

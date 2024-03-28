@@ -1,20 +1,20 @@
+/* eslint-disable react/prop-types */
 // Import necessary dependencies
 import PropTypes from "prop-types";
-import { SiGithub } from "react-icons/si";
-import { SlLink } from "react-icons/sl";
 
 // Define a functional component called ProjectCard that takes in various props
-const ProjectCard = ({
-  title,
-  image,
-  technologies,
-  liveLink,
-  githubLink,
-}) => {
+const ProjectCard = ({ title, image, projectType, path }) => {
+  const openInNewWindow = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="my-auto ">
       {/* Start of Project Card */}
-      <div className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700 lg:min-h-[85vh] lg:hover:transition-colors">
+      <div
+        onClick={() => openInNewWindow(path)}
+        className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-500 lg:hover:transition-transform lg:p-8 p-6 cursor-pointer"
+      >
         {/* Display the project title */}
         <h3 className="pt-4 text-2xl lg:text-3xl font-semibold text-[#FFFFFF]">
           {title}
@@ -27,33 +27,21 @@ const ProjectCard = ({
           alt={title}
           title={title}
           loading="lazy"
-          className="max-w-2xl w-[90%] my-7 max-h-72 object-cover object-top lg:rounded-md"
+          className="min-h-[350px] object-fill my-7 max-h-72 lg:rounded-md"
         />
+        <h2 className="text-2xl text-[#FFFFFF] font-semibold mb-7 ">
+          Project Type: {projectType}
+        </h2>
         {/* Display the project description */}
         {/* <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
           {description}
         </p> */}
         {/* Display the list of technologies used */}
-        <ul className="flex max-w-[90%] gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md md:max-w-[90%]">
+        {/* <ul className="flex max-w-[90%] gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md md:max-w-[90%]">
           {technologies.map((tech, key) => (
             <li key={key}>{tech}</li>
           ))}
-        </ul>
-        {/* Display links to the live project and GitHub repository */}
-        <div className="flex gap-6 mt-5 text-white">
-          <a href={liveLink} target="_blank" rel="noreferrer">
-            <div className="flex flex-col items-center mt-3">
-              <SlLink size={22} color="#FFD700" />
-              <p className="pt-2 text-sm">Live Link</p>
-            </div>
-          </a>
-          <a href={githubLink} target="_blank" rel="noreferrer">
-            <div className="flex flex-col items-center mt-3">
-              <SiGithub size={22} color="#FFD700" />
-              <p className="pt-2 text-sm">View code</p>
-            </div>
-          </a>
-        </div>
+        </ul> */}
       </div>
       {/* End of Project Card */}
     </div>
