@@ -7,6 +7,7 @@ import project05 from "../assets/images/project05.png";
 
 const projectData = [
   {
+    path: "/project01",
     title: "Edufocus Projects",
     image: project01,
     description: (
@@ -46,6 +47,7 @@ const projectData = [
     githubLink: "https://github.com/Riyaazct/no-bugs-edufocus-za",
   },
   {
+    path: "/project02",
     title: "Exploring SA",
     image: project02,
     description: (
@@ -78,6 +80,7 @@ const projectData = [
     githubLink: "https://github.com/Riyaazct/exploringsa",
   },
   {
+    path: "/project03",
     title: "TV Show Explorer",
     image: project03,
     description: (
@@ -101,6 +104,7 @@ const projectData = [
     githubLink: "https://github.com/Riyaazct/tv-show-dom-project/",
   },
   {
+    path: "/project04",
     title: "My Portfolio",
     image: project04,
     description: (
@@ -125,6 +129,7 @@ const projectData = [
     githubLink: "https://github.com/Riyaazct/myPortfolio",
   },
   {
+    path: "/project05",
     title: "Online Quotation Generator",
     image: project05,
     description: (
