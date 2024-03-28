@@ -13,9 +13,9 @@ const ProjectCard = ({
   githubLink,
 }) => {
   return (
-    <div className="my-auto">
+    <div className="my-auto ">
       {/* Start of Project Card */}
-      <div className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700 lg:min-h-[85vh]">
+      <div className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-700 lg:min-h-[85vh] lg:hover:transition-colors">
         {/* Display the project title */}
         <h3 className="pt-4 text-2xl lg:text-3xl font-semibold text-[#FFFFFF]">
           {title}
@@ -31,11 +31,11 @@ const ProjectCard = ({
           className="max-w-2xl w-[90%] my-7 max-h-72 object-cover object-top lg:rounded-md"
         />
         {/* Display the project description */}
-        <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px]">
+        <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
           {description}
         </p>
         {/* Display the list of technologies used */}
-        <ul className="flex max-w-[90%] md:max-w-full gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md">
+        <ul className="flex max-w-[90%] gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md md:max-w-[90%]">
           {technologies.map((tech, key) => (
             <li key={key}>{tech}</li>
           ))}

@@ -186,3 +186,26 @@ const projectData = [
 ];
 
 export default projectData;
+/* 
+Project Title: Todo List Application
+
+Description:
+The Todo List Application is a full-stack web application built using React.js for the frontend and Node.js with Express.js for the backend. It allows users to manage their tasks efficiently by providing features such as task creation, editing, deletion, categorization, and marking tasks as completed. The application utilizes JWT authentication for user login and registration, ensuring secure access to user data. Additionally, it integrates with Google OAuth for seamless authentication and offers refresh token functionality to maintain user sessions. With its intuitive user interface and robust functionality, the Todo List Application simplifies task management and enhances productivity.
+
+Key Features:
+
+Task creation, editing, and deletion
+Categorization of tasks
+Marking tasks as completed
+User authentication with JWT and Google OAuth
+Refresh token functionality for maintaining user sessions
+Intuitive and responsive user interface
+Technologies Used:
+
+Frontend: React.js, React Router, Redux
+Backend: Node.js, Express.js
+Database: PostgreSQL
+Authentication: JWT, Google OAuth
+Additional Libraries: Axios, bcrypt, JWT
+GitHub Repository: Link to GitHub Repository
+ */
