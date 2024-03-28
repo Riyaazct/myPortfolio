@@ -32,7 +32,7 @@ const projectData = [
         </strong>
       </>
     ),
-    projectType: "Full Stack",
+    projectType: "Full-Stack",
     technologies: [
       "JavaScript",
       "React",
@@ -182,7 +182,7 @@ const projectData = [
         </strong>
       </>
     ),
-    projectType: "Full Stack",
+    projectType: "Full-Stack",
     technologies: [
       "React",
       "JavaScript",
@@ -246,7 +246,7 @@ const projectData = [
         </p>
       </>
     ),
-    projectType: "Full Stack",
+    projectType: "Full-Stack",
     technologies: [
       "React",
       "JavaScript",

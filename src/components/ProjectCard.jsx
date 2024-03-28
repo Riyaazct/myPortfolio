@@ -4,17 +4,10 @@ import PropTypes from "prop-types";
 
 // Define a functional component called ProjectCard that takes in various props
 const ProjectCard = ({ title, image, projectType, path }) => {
-  const openInNewWindow = (url) => {
-    window.open(url, "_blank");
-  };
-
   return (
     <div className="my-auto ">
       {/* Start of Project Card */}
-      <div
-        onClick={() => openInNewWindow(path)}
-        className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-500 lg:hover:transition-transform lg:p-8 p-6 cursor-pointer"
-      >
+      <div className="w-full flex flex-col items-center md:border-2 md:rounded-md border-gray-950 bg-[#2E3B4E] shadow-sm shadow-[#1E1E1E] lg:hover:shadow-md lg:hover:scale-[1.01] lg:hover:duration-500 lg:hover:transition-transform lg:p-8 p-6 ">
         {/* Display the project title */}
         <h3 className="pt-4 text-2xl lg:text-3xl font-semibold text-[#FFFFFF]">
           {title}
@@ -32,6 +25,14 @@ const ProjectCard = ({ title, image, projectType, path }) => {
         <h2 className="text-2xl text-[#FFFFFF] font-semibold mb-7 ">
           Project Type: {projectType}
         </h2>
+        <a
+          href={path}
+          target="_blank"
+          rel="noreferrer"
+          className="p-3 border border-black bg-[#ffd900ea] hover:bg-[#FFD700] rounded-md"
+        >
+          View Project details
+        </a>
         {/* Display the project description */}
         {/* <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
           {description}
