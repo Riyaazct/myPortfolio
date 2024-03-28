@@ -7,7 +7,6 @@ import { SlLink } from "react-icons/sl";
 const ProjectCard = ({
   title,
   image,
-  description,
   technologies,
   liveLink,
   githubLink,
@@ -31,9 +30,9 @@ const ProjectCard = ({
           className="max-w-2xl w-[90%] my-7 max-h-72 object-cover object-top lg:rounded-md"
         />
         {/* Display the project description */}
-        <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
+        {/* <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
           {description}
-        </p>
+        </p> */}
         {/* Display the list of technologies used */}
         <ul className="flex max-w-[90%] gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md md:max-w-[90%]">
           {technologies.map((tech, key) => (
