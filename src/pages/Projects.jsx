@@ -14,28 +14,20 @@ const Projects = () => {
       </div>
 
       {/* Project Container */}
-      <div className="grid grid-cols-1 gap-4 md:p-5 md:max-w-[75%] mx-auto lg:grid-cols-2 lg:max-w-[1350px]">
+      <div className="grid grid-cols-1 gap-4 md:p-5 md:max-w-[75%] mx-auto lg:grid-cols-2 lg:max-w-[1350px] md:overflow-y-scroll md:h-[80vh] ">
         {/* Map through projectData and create ProjectCard components */}
         {projectData.map(
           (
-            {
-              title,
-              image,
-              description,
-              technologies,
-              liveLink,
-              githubLink,
-            },
+            { title, image, technologies, projectType, path },
             key
           ) => (
             <ProjectCard
               key={key}
               title={title}
               image={image}
-              description={description}
               technologies={technologies}
-              liveLink={liveLink}
-              githubLink={githubLink}
+              projectType={projectType}
+              path={path}
             />
           )
         )}

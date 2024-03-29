@@ -1,3 +1,4 @@
+import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
@@ -9,6 +10,7 @@ import GoToTopButton from "./components/GoToTopButton";
 function App() {
   return (
     <div>
+      <Nav />
       <Home />
       <Skills />
       <Projects />

@@ -1,6 +1,6 @@
 // Import necessary dependencies from React and other libraries
 import { useState, useEffect } from "react";
-import { Spin, Spin as Hamburger } from "hamburger-react";
+import { Spin } from "hamburger-react";
 
 // Define a functional component called Nav
 const Nav = () => {

@@ -4,10 +4,12 @@ import project02 from "../assets/images/project02.png";
 import project03 from "../assets/images/project03.png";
 import project04 from "../assets/images/project04.png";
 import project05 from "../assets/images/project05.png";
+import project06 from "../assets/images/project06.png";
 
 const projectData = [
   {
-    title: "Edufocus Projects",
+    path: "/project01",
+    title: "EduFocus Projects",
     image: project01,
     description: (
       <>
@@ -17,90 +19,85 @@ const projectData = [
         responsibilities encompassed GitHub hosting, core page
         creation ('About Us' and 'Our Photos'), and contributing to
         the admin page for training material management in the
-        database. We employed{" "}
-        <span className="text-[#FFD700] font-medium">
-          {" "}
-          JavaScript, React, Node.js, Express, PostgreSQL, and CSS
-        </span>
-        , highlighting both our teamwork and technical capabilities.
+        database. We employed JavaScript, React, Node.js, Express,
+        PostgreSQL, and CSS , highlighting both our teamwork and
+        technical capabilities.
         <br />
         <br />
-        <strong>
-          NB! Please allow 1 minute for the server to boot up when
-          viewing the live link.
-        </strong>
+        NB! Please allow 1 minute for the server to boot up when
+        viewing the live link.
       </>
     ),
+    projectType: "Full-Stack",
     technologies: [
-      "Full Stack",
       "JavaScript",
       "React",
       "Node",
       "Express",
       "PostgreSQL",
+      "CSS",
+    ],
+    otherTechnologies: [
       "Github",
+      "Github Projects",
       "Agile",
-      "",
+      "React Router",
     ],
     liveLink: "https://starter-kit-g0y0.onrender.com/",
     githubLink: "https://github.com/Riyaazct/no-bugs-edufocus-za",
   },
   {
+    path: "/project02",
     title: "Exploring SA",
     image: project02,
     description: (
       <>
-        After graduating from the software development course, I
-        embarked on a project using{" "}
-        <span className="text-[#FFD700] font-medium">
-          JavaScript, React, and Tailwind CSS
-        </span>
-        . This{" "}
-        <span className="text-[#FFD700] font-medium">front-end</span>{" "}
-        website, following a mobile-first approach, optimizes client
-        hosting costs. Future plans include adding a backend. I
-        integrated a contact form via EmailJS and a WhatsApp widget
-        for seamless communication. Implementing SEO in{" "}
-        <span className="text-[#FFD700] font-medium">React</span>, I
-        strategically used keywords with meta tags. Overcoming hosting
-        and DNS challenges, I ensured continuous email functionality.
+        <p>
+          Exploring SA Transport and Tours is a comprehensive web
+          platform designed for a premier tours and transportation
+          business operating in South Africa. Built with React.js for
+          frontend interactivity, it facilitates easy exploration of
+          diverse travel services, including charter services, airport
+          transfers, and corporate transportation. The platform
+          ensures a seamless user experience, incorporating features
+          like contact forms, dynamic content, and responsive design.
+          By leveraging SEO techniques and tailored content, it
+          enhances visibility and engagement, empowering users to plan
+          unforgettable journeys with ease.
+        </p>
       </>
     ),
-    technologies: [
-      "Front End",
-      "React",
-      "JavaScript",
-      "Tailwind",
-      "Emailjs",
-      "SEO",
-    ],
+    projectType: "Front-end",
+    technologies: ["Front End", "React", "JavaScript", "Tailwind"],
+    otherTechnologies: ["Emailjs", "SEO"],
     liveLink: "https://exploringsa.co.za/",
     githubLink: "https://github.com/Riyaazct/exploringsa",
   },
   {
+    path: "/project03",
     title: "TV Show Explorer",
     image: project03,
     description: (
       <>
         During the software development course, I completed a project
         focused on manipulating the DOM and fetching data from the
-        TVmaze API using{" "}
-        <span className="text-[#FFD700] font-medium">
-          HTML, CSS and JavaScript
-        </span>
-        . The TV Show Explorer allowed users to search and explore TV
-        shows, displaying details such as titles, genres, ratings, and
+        TVmaze API using HTML, CSS and JavaScript . The TV Show
+        Explorer allowed users to search and explore TV shows,
+        displaying details such as titles, genres, ratings, and
         runtime in a dynamic and user-friendly interface. This project
         showcased my ability to work with external APIs and create
         engaging web applications using fundamental web development
         technologies.
       </>
     ),
+    projectType: "JavaScript DOM",
     technologies: ["Front End", "HTML", "CSS", "JavaScript"],
+    otherTechnologies: ["JavaScript DOM"],
     liveLink: "https://cyf-riyaazct-tv.netlify.app/",
     githubLink: "https://github.com/Riyaazct/tv-show-dom-project/",
   },
   {
+    path: "/project04",
     title: "My Portfolio",
     image: project04,
     description: (
@@ -113,26 +110,31 @@ const projectData = [
         effortlessly with the user-friendly menu and a contact form,
         allowing visitors to reach out and connect with me directly.
         Explore my skills, projects, and get in touch through this
-        comprehensive platform, built using{" "}
-        <span className="text-[#FFD700] font-medium">
-          JavaScript, React, Tailwind and CSS
-        </span>{" "}
-        to deliver a seamless and visually appealing experience.
+        comprehensive platform, built using JavaScript, React,
+        Tailwind and CSS to deliver a seamless and visually appealing
+        experience.
       </>
     ),
-    technologies: ["Front End", "JavaScript", "Tailwindcss", "CSS"],
-    liveLink: "https://bespoke-donut-8693cf.netlify.app/",
+    projectType: "Front-end",
+    technologies: ["React.js", "JavaScript", "Tailwindcss", "CSS"],
+    otherTechnologies: [
+      "React-Router",
+      "Emailjs",
+      "React Slick",
+      "React-tooltip",
+      "Slick Carousel",
+    ],
+    liveLink: "https://riyaazscodecraft.co.za/",
     githubLink: "https://github.com/Riyaazct/myPortfolio",
   },
   {
+    path: "/project05",
     title: "Online Quotation Generator",
     image: project05,
     description: (
       <>
-        Currently working on this Fullstack{" "}
-        <span className="text-[#FFD700] font-medium">
-          React, NodeJs and PostgreSQL project.
-        </span>{" "}
+        Currently working on this Fullstack React, NodeJs and
+        PostgreSQL project.
         <br />
         My intention is to create an online platform that solves an
         issue where manufacturers of steel structures for home
@@ -144,19 +146,11 @@ const projectData = [
         directly from the webapp in pdf format and manage stock
         inventory and more... <br />
         Thus far I have completed the authentication and authorization
-        aspect of it using{" "}
-        <span className="text-[#FFD700] font-medium">
-          Jwt/Refresh Tokens.
-        </span>{" "}
+        aspect of it using Jwt/Refresh Tokens.
         <br />A lot of planning is needed for the rest of the project
         so I'm spending time in figma for a basic design and also
-        learning
-        <span className="text-[#FFD700] font-medium">
-          {" "}
-          Redux
-        </span>{" "}
-        because It seems it would be a great fit for a project with a
-        scope such as this.
+        learning Redux because It seems it would be a great fit for a
+        project with a scope such as this.
         <br />
         <br />
         <strong>Login Details for testing:</strong> <br />
@@ -169,43 +163,83 @@ const projectData = [
         </strong>
       </>
     ),
+    projectType: "Full-Stack",
     technologies: [
-      "Full Stack",
       "React",
       "JavaScript",
       "NodeJs",
       "PostgreSQL",
       "Bootstrap 4",
       "CSS",
+    ],
+    otherTechnologies: [
       "Formik",
       "Yup",
+      "React Router",
+      "axios",
+      "JSON WebToken",
     ],
     liveLink: "https://all-in-one-quotation-generator.vercel.app/",
     githubLink: "",
   },
+  {
+    path: "/project06",
+    title: "Todo List Application",
+    image: project06,
+    description: (
+      <>
+        <p>
+          The Todo List Application is a full-stack web application
+          built using React.js for the frontend and Node.js with
+          Express.js for the backend. It allows users to manage their
+          tasks efficiently by providing features such as task
+          creation, editing, deletion, categorization, and marking
+          tasks as completed. The application utilizes JWT
+          authentication for user login and registration, ensuring
+          secure access to user data. Additionally, it integrates with
+          Google OAuth for seamless authentication and offers refresh
+          token functionality to maintain user sessions. With its
+          intuitive user interface and robust functionality, the Todo
+          List Application simplifies task management and enhances
+          productivity.
+        </p>
+        <br />
+        <p>
+          <strong>Key Features:</strong> Task creation, editing, and
+          deletion of tasks, Marking tasks as completed. User
+          authentication with JWT and Refresh token functionality for
+          maintaining user sessions Intuitive and responsive user
+          interface
+        </p>
+        <p>
+          Technologies Used: Frontend: React.js, React Router, Redux
+          Backend: Node.js, Express.js Database: PostgreSQL
+          Authentication: JWT, Google OAuth Additional Libraries:
+          Axios, bcrypt, JWT GitHub Repository: Link to GitHub
+          Repository
+        </p>
+      </>
+    ),
+    projectType: "Full-Stack",
+    technologies: [
+      "React",
+      "JavaScript",
+      "NodeJs",
+      "PostgreSQL",
+      "Redux-Toolkit",
+      "Tailwind",
+    ],
+    otherTechnologies: [
+      "React Router",
+      "Express.js",
+      "Axios",
+      "JSON Webtoken",
+      "Formik",
+      "Yup",
+    ],
+    liveLink: "https://todo-list-react-two-black.vercel.app/",
+    githubLink: "https://github.com/Riyaazct/todos",
+  },
 ];
 
 export default projectData;
-/* 
-Project Title: Todo List Application
-
-Description:
-The Todo List Application is a full-stack web application built using React.js for the frontend and Node.js with Express.js for the backend. It allows users to manage their tasks efficiently by providing features such as task creation, editing, deletion, categorization, and marking tasks as completed. The application utilizes JWT authentication for user login and registration, ensuring secure access to user data. Additionally, it integrates with Google OAuth for seamless authentication and offers refresh token functionality to maintain user sessions. With its intuitive user interface and robust functionality, the Todo List Application simplifies task management and enhances productivity.
-
-Key Features:
-
-Task creation, editing, and deletion
-Categorization of tasks
-Marking tasks as completed
-User authentication with JWT and Google OAuth
-Refresh token functionality for maintaining user sessions
-Intuitive and responsive user interface
-Technologies Used:
-
-Frontend: React.js, React Router, Redux
-Backend: Node.js, Express.js
-Database: PostgreSQL
-Authentication: JWT, Google OAuth
-Additional Libraries: Axios, bcrypt, JWT
-GitHub Repository: Link to GitHub Repository
- */
