@@ -4,6 +4,7 @@ import project02 from "../assets/images/project02.png";
 import project03 from "../assets/images/project03.png";
 import project04 from "../assets/images/project04.png";
 import project05 from "../assets/images/project05.png";
+import project06 from "../assets/images/project06.png";
 
 const projectData = [
   {
@@ -184,7 +185,7 @@ const projectData = [
   {
     path: "/project06",
     title: "Todo List Application",
-    image: project05,
+    image: project06,
     description: (
       <>
         <p>

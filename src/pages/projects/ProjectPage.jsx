@@ -13,41 +13,79 @@ const ProjectPage = ({
   githubLink,
 }) => {
   return (
-    <section className="bg-[#2e3b4e] h-full p-10 flex text-[#FFFFFF]">
-      <div className="flex flex-col items-center w-full h-[90%] m-auto max-w-7xl">
+    <section className="bg-[#2e3b4e] h-full p-10 flex text-[#FFFFFF] ">
+      {/* CONTAINER */}
+      <div className="flex flex-col items-center w-full h-[90%] m-auto max-w-7xl ">
+        {/* TITLE */}
         <h1 className="mb-8 text-4xl font-semibold">{title}</h1>
+
+        {/* IMAGE */}
         <img
           src={image}
           alt=""
-          className="h-auto m-auto max-w-[700px] rounded-md"
+          className="h-auto m-auto rounded-md"
         />
-        <p className="my-5 text-lg max-w-[700px]">{description}</p>
-        <ul className="flex my-5 ">
-          {technologies.map((tech, index) => (
-            <li key={index} className="px-2 text-2xl font-semibold">
-              {tech}
-            </li>
-          ))}
-        </ul>
-        <ul className="flex my-5 ">
-          {otherTechnologies.map((tech, index) => (
-            <li key={index} className="px-2 text-2xl font-semibold">
-              {tech}
-            </li>
-          ))}
-        </ul>
+
+        {/* DESCRIPTION */}
+        <p className="my-5 text-sm md:text-lg xl:text-2xl ">
+          {description}
+        </p>
+
+        {/* TECHNOLOGIES */}
+        <div className="flex w-full mt-8 md:gap-5 lg:justify-around ">
+          <div className="mx-12 md:mx-16">
+            <h3 className="font-semibold md:text-2xl">
+              Technologies Used:
+            </h3>
+            <ul className="my-5 list-disc">
+              {technologies.map((tech, index) => (
+                <li
+                  key={index}
+                  className="px-2 font-semibold md:text-2xl"
+                >
+                  {tech}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* OTHER TECHNOLOGIES */}
+
+          <div className="mx-12 md:mx-16">
+            <h3 className="font-semibold md:text-2xl">
+              Other Technologies Used:
+            </h3>
+            <ul className="my-5 list-disc">
+              {otherTechnologies.map((tech, index) => (
+                <li
+                  key={index}
+                  className="px-2 font-semibold md:text-2xl"
+                >
+                  {tech}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
         {/* Display links to the live project and GitHub repository */}
-        <div className="flex gap-6 mt-5 text-white">
+        <div className="flex mt-5 text-white gap-14">
           <a href={liveLink} target="_blank" rel="noreferrer">
             <div className="flex flex-col items-center mt-3">
-              <SlLink size={22} color="#FFD700" />
-              <p className="pt-2 text-sm">Live Link</p>
+              <SlLink
+                size={window.innerWidth <= 768 ? 22 : 40}
+                color="#FFD700"
+              />
+              <p className="pt-2 text-sm md:text-lg">Live Link</p>
             </div>
           </a>
           <a href={githubLink} target="_blank" rel="noreferrer">
             <div className="flex flex-col items-center mt-3">
-              <SiGithub size={22} color="#FFD700" />
-              <p className="pt-2 text-sm">View code</p>
+              <SiGithub
+                size={window.innerWidth <= 768 ? 22 : 40}
+                color="#FFD700"
+              />
+              <p className="pt-2 text-sm md:text-lg">View code</p>
             </div>
           </a>
         </div>

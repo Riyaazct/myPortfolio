@@ -1,6 +1,6 @@
 // Import necessary dependencies and components
 import { useEffect, useState } from "react";
-import Nav from "../components/Nav";
+// import Nav from "../components/Nav";
 import Button from "../components/Button";
 import EmailIcon from "../components/EmailIcon";
 import { BsLinkedin } from "react-icons/bs";
@@ -39,7 +39,7 @@ const Home = () => {
   // Render the home section with content and icons
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <section className="flex flex-col items-center justify-center w-full h-screen bg-gradient-to-b from-[rgba(31,74,35,1)] via-[rgba(31,74,35,0.7104)] to-[rgba(31,74,35,0)]">
         <div>
           <h1>
