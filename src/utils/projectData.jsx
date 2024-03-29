@@ -46,7 +46,6 @@ const projectData = [
       "Github Projects",
       "Agile",
       "React Router",
-      "",
     ],
     liveLink: "https://starter-kit-g0y0.onrender.com/",
     githubLink: "https://github.com/Riyaazct/no-bugs-edufocus-za",
@@ -74,7 +73,7 @@ const projectData = [
     ),
     projectType: "Front-end",
     technologies: ["Front End", "React", "JavaScript", "Tailwind"],
-    OtherTechnologies: ["Emailjs", "SEO"],
+    otherTechnologies: ["Emailjs", "SEO"],
     liveLink: "https://exploringsa.co.za/",
     githubLink: "https://github.com/Riyaazct/exploringsa",
   },
@@ -214,7 +213,7 @@ const projectData = [
           </span>{" "}
           application built using{" "}
           <span className="text-[#FFD700] font-medium">React.js</span>{" "}
-          for the frontend and
+          for the frontend and{" "}
           <span className="text-[#FFD700] font-medium">
             Node.js with Express.js
           </span>{" "}

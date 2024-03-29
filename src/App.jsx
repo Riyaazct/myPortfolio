@@ -6,8 +6,6 @@ import Contact from "./pages/Contact";
 import Copyright from "./components/Copyright";
 import GoToTopButton from "./components/GoToTopButton";
 
-import projectData from "./utils/projectData";
-
 function App() {
   return (
     <div>
