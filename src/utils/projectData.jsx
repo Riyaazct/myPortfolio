@@ -18,18 +18,15 @@ const projectData = [
         responsibilities encompassed GitHub hosting, core page
         creation ('About Us' and 'Our Photos'), and contributing to
         the admin page for training material management in the
-        database. We employed{" "}
+        database. We employed JavaScript, React, Node.js, Express,
+        PostgreSQL, and CSS , highlighting both our teamwork and
+        technical capabilities.
+        <br />
+        <br />
         <span className="text-[#FFD700] font-medium">
-          {" "}
-          JavaScript, React, Node.js, Express, PostgreSQL, and CSS
-        </span>
-        , highlighting both our teamwork and technical capabilities.
-        <br />
-        <br />
-        <strong>
           NB! Please allow 1 minute for the server to boot up when
           viewing the live link.
-        </strong>
+        </span>
       </>
     ),
     projectType: "Full-Stack",
@@ -117,22 +114,21 @@ const projectData = [
         effortlessly with the user-friendly menu and a contact form,
         allowing visitors to reach out and connect with me directly.
         Explore my skills, projects, and get in touch through this
-        comprehensive platform, built using{" "}
-        <span className="text-[#FFD700] font-medium">
-          JavaScript, React, Tailwind and CSS
-        </span>{" "}
-        to deliver a seamless and visually appealing experience.
+        comprehensive platform, built using JavaScript, React,
+        Tailwind and CSS to deliver a seamless and visually appealing
+        experience.
       </>
     ),
     projectType: "Front-end",
     technologies: ["React.js", "JavaScript", "Tailwindcss", "CSS"],
     otherTechnologies: [
+      "React-Router",
       "Emailjs",
       "React Slick",
       "React-tooltip",
       "Slick Carousel",
     ],
-    liveLink: "https://bespoke-donut-8693cf.netlify.app/",
+    liveLink: "https://riyaazscodecraft.co.za/",
     githubLink: "https://github.com/Riyaazct/myPortfolio",
   },
   {
@@ -141,10 +137,8 @@ const projectData = [
     image: project05,
     description: (
       <>
-        Currently working on this Fullstack{" "}
-        <span className="text-[#FFD700] font-medium">
-          React, NodeJs and PostgreSQL project.
-        </span>{" "}
+        Currently working on this Fullstack React, NodeJs and
+        PostgreSQL project.
         <br />
         My intention is to create an online platform that solves an
         issue where manufacturers of steel structures for home
@@ -156,19 +150,11 @@ const projectData = [
         directly from the webapp in pdf format and manage stock
         inventory and more... <br />
         Thus far I have completed the authentication and authorization
-        aspect of it using{" "}
-        <span className="text-[#FFD700] font-medium">
-          Jwt/Refresh Tokens.
-        </span>{" "}
+        aspect of it using Jwt/Refresh Tokens.
         <br />A lot of planning is needed for the rest of the project
         so I'm spending time in figma for a basic design and also
-        learning
-        <span className="text-[#FFD700] font-medium">
-          {" "}
-          Redux
-        </span>{" "}
-        because It seems it would be a great fit for a project with a
-        scope such as this.
+        learning Redux because It seems it would be a great fit for a
+        project with a scope such as this.
         <br />
         <br />
         <strong>Login Details for testing:</strong> <br />

@@ -47,7 +47,7 @@ const ProjectCard = ({
           rel="noreferrer"
           className="py-1 px-3 border-2 border-[#1F4A23] bg-[#FFD700] rounded-md text-[#1f4a23] font-semibold shadow-[#1E1E1E] text-xs shadow-md md:py-2 lg:py-3 lg:text-sm lg:px-5 hover:bg-[#FFFFFF]"
         >
-          View Project details
+          Project details
         </a>
         {/* Display the project description */}
         {/* <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
