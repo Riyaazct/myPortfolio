@@ -25,7 +25,7 @@ const ProjectCard = ({
           alt={title}
           title={title}
           loading="lazy"
-          className="min-h-[290px] max-w-[500px] object-fill my-7 max-h-72 lg:rounded-md"
+          className="lg:min-h-[290px] lg:max-w-[500px] object-fill my-7 max-h-72 lg:rounded-md"
         />
         <h2 className="text-2xl text-[#FFFFFF] font-semibold  ">
           Project Type: {projectType}

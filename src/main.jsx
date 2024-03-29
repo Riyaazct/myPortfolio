@@ -21,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               image,
               description,
               technologies,
+              otherTechnologies,
               liveLink,
               githubLink,
             },
@@ -38,6 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                   technologies={technologies}
                   githubLink={githubLink}
                   liveLink={liveLink}
+                  otherTechnologies={otherTechnologies}
                 />
               }
             />

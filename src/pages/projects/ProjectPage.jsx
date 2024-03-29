@@ -8,6 +8,7 @@ const ProjectPage = ({
   image,
   description,
   technologies,
+  otherTechnologies,
   liveLink,
   githubLink,
 }) => {
@@ -23,6 +24,13 @@ const ProjectPage = ({
         <p className="my-5 text-lg max-w-[700px]">{description}</p>
         <ul className="flex my-5 ">
           {technologies.map((tech, index) => (
+            <li key={index} className="px-2 text-2xl font-semibold">
+              {tech}
+            </li>
+          ))}
+        </ul>
+        <ul className="flex my-5 ">
+          {otherTechnologies.map((tech, index) => (
             <li key={index} className="px-2 text-2xl font-semibold">
               {tech}
             </li>

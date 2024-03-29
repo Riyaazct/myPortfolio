@@ -47,7 +47,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="text-center">
+    <section className="mb-16 text-center">
       {/* Skills section header */}
       <h2 className="text-4xl text-[#1E1E1E] font-extrabold pb-8 lg:text-5xl">
         Skills

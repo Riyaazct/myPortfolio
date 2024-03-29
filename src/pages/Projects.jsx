@@ -14,7 +14,7 @@ const Projects = () => {
       </div>
 
       {/* Project Container */}
-      <div className="grid grid-cols-1 gap-4 md:p-5 md:max-w-[75%] mx-auto lg:grid-cols-2 lg:max-w-[1350px] overflow-y-scroll h-screen">
+      <div className="grid grid-cols-1 gap-4 md:p-5 md:max-w-[75%] mx-auto lg:grid-cols-2 lg:max-w-[1350px] md:overflow-y-scroll md:h-screen ">
         {/* Map through projectData and create ProjectCard components */}
         {projectData.map(
           (
