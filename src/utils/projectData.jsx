@@ -23,10 +23,8 @@ const projectData = [
         technical capabilities.
         <br />
         <br />
-        <span className="text-[#FFD700] font-medium">
-          NB! Please allow 1 minute for the server to boot up when
-          viewing the live link.
-        </span>
+        NB! Please allow 1 minute for the server to boot up when
+        viewing the live link.
       </>
     ),
     projectType: "Full-Stack",
@@ -82,12 +80,9 @@ const projectData = [
       <>
         During the software development course, I completed a project
         focused on manipulating the DOM and fetching data from the
-        TVmaze API using{" "}
-        <span className="text-[#FFD700] font-medium">
-          HTML, CSS and JavaScript
-        </span>
-        . The TV Show Explorer allowed users to search and explore TV
-        shows, displaying details such as titles, genres, ratings, and
+        TVmaze API using HTML, CSS and JavaScript . The TV Show
+        Explorer allowed users to search and explore TV shows,
+        displaying details such as titles, genres, ratings, and
         runtime in a dynamic and user-friendly interface. This project
         showcased my ability to work with external APIs and create
         engaging web applications using fundamental web development
@@ -193,34 +188,27 @@ const projectData = [
     description: (
       <>
         <p>
-          The Todo List Application is a{" "}
-          <span className="text-[#FFD700] font-medium">
-            full-stack web
-          </span>{" "}
-          application built using{" "}
-          <span className="text-[#FFD700] font-medium">React.js</span>{" "}
-          for the frontend and{" "}
-          <span className="text-[#FFD700] font-medium">
-            Node.js with Express.js
-          </span>{" "}
-          for the backend. It allows users to manage their tasks
-          efficiently by providing features such as task creation,
-          editing, deletion, categorization, and marking tasks as
-          completed. The application utilizes JWT authentication for
-          user login and registration, ensuring secure access to user
-          data. Additionally, it integrates with Google OAuth for
-          seamless authentication and offers refresh token
-          functionality to maintain user sessions. With its intuitive
-          user interface and robust functionality, the Todo List
-          Application simplifies task management and enhances
+          The Todo List Application is a full-stack web application
+          built using React.js for the frontend and Node.js with
+          Express.js for the backend. It allows users to manage their
+          tasks efficiently by providing features such as task
+          creation, editing, deletion, categorization, and marking
+          tasks as completed. The application utilizes JWT
+          authentication for user login and registration, ensuring
+          secure access to user data. Additionally, it integrates with
+          Google OAuth for seamless authentication and offers refresh
+          token functionality to maintain user sessions. With its
+          intuitive user interface and robust functionality, the Todo
+          List Application simplifies task management and enhances
           productivity.
         </p>
+        <br />
         <p>
           <strong>Key Features:</strong> Task creation, editing, and
-          deletion Categorization of tasks Marking tasks as completed
-          User authentication with JWT and Google OAuth Refresh token
-          functionality for maintaining user sessions Intuitive and
-          responsive user interface
+          deletion of tasks, Marking tasks as completed. User
+          authentication with JWT and Refresh token functionality for
+          maintaining user sessions Intuitive and responsive user
+          interface
         </p>
         <p>
           Technologies Used: Frontend: React.js, React Router, Redux
