@@ -49,16 +49,6 @@ const ProjectCard = ({
         >
           Project details
         </a>
-        {/* Display the project description */}
-        {/* <p className="px-6 sm:px-9 py-2 text-white text-start md:max-w-[740px] hover:cursor-pointer">
-          {description}
-        </p> */}
-        {/* Display the list of technologies used */}
-        {/* <ul className="flex max-w-[90%] gap-2 md:gap-4 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md md:max-w-[90%]">
-          {technologies.map((tech, key) => (
-            <li key={key}>{tech}</li>
-          ))}
-        </ul> */}
       </div>
       {/* End of Project Card */}
     </div>
