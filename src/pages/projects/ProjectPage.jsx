@@ -80,13 +80,15 @@ const ProjectPage = ({
             </div>
           </a>
           <a href={githubLink} target="_blank" rel="noreferrer">
-            <div className="flex flex-col items-center mt-3">
-              <SiGithub
-                size={window.innerWidth <= 768 ? 22 : 40}
-                color="#FFD700"
-              />
-              <p className="pt-2 text-sm md:text-lg">View code</p>
-            </div>
+            {githubLink ? (
+              <div className="flex flex-col items-center mt-3">
+                <SiGithub
+                  size={window.innerWidth <= 768 ? 22 : 40}
+                  color="#FFD700"
+                />
+                <p className="pt-2 text-sm md:text-lg">View code</p>
+              </div>
+            ) : null}
           </a>
         </div>
       </div>
