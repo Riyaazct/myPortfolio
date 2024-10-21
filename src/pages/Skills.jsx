@@ -9,6 +9,8 @@ import {
   SiPostgresql,
   SiTailwindcss,
   SiGithub,
+  SiWordpress,
+  SiElementor,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
@@ -184,6 +186,34 @@ const Skills = () => {
               />
             }
             label={"Github"}
+          />
+          <SkillIcon
+            icon={
+              <SiWordpress
+                size={
+                  window.innerWidth <= 768
+                    ? 35
+                    : window.innerWidth <= 1024
+                    ? 48
+                    : 58
+                }
+              />
+            }
+            label={"Wordpress"}
+          />
+          <SkillIcon
+            icon={
+              <SiElementor
+                size={
+                  window.innerWidth <= 768
+                    ? 35
+                    : window.innerWidth <= 1024
+                    ? 48
+                    : 58
+                }
+              />
+            }
+            label={"Elementor"}
           />
         </Slider>
         {/* End of Slider component */}
