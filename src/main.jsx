@@ -24,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               otherTechnologies,
               liveLink,
               githubLink,
+              figmaLink,
             },
             index
           ) => (
@@ -40,6 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                   githubLink={githubLink}
                   liveLink={liveLink}
                   otherTechnologies={otherTechnologies}
+                  figmaLink={figmaLink}
                 />
               }
             />

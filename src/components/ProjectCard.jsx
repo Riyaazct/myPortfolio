@@ -62,9 +62,6 @@ ProjectCard.propTypes = {
   technologies: PropTypes.array.isRequired, // Technologies should be an array
   projectType: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
-  // description: PropTypes.object.isRequired, // Description should be an object (you might want to use PropTypes.string if it's a string)
-  // liveLink: PropTypes.string.isRequired, // Live link URL should be a required string
-  // githubLink: PropTypes.string.isRequired, // GitHub link URL should be a required string
 };
 
 // Export the ProjectCard component as the default export of this module

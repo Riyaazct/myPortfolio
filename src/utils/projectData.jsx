@@ -73,6 +73,8 @@ const projectData = [
     otherTechnologies: ["Emailjs", "SEO"],
     liveLink: "https://exploringsa.co.za/",
     githubLink: "https://github.com/Riyaazct/exploringsa",
+    figmaLink:
+      "https://www.figma.com/design/Z0oD7Xnel8iYOBsKpIraAT/exploring-sa?node-id=44-43&t=Dphk159TXsyTCvi2-1",
   },
   {
     path: "/project03",
@@ -127,6 +129,8 @@ const projectData = [
     ],
     liveLink: "https://riyaazscodecraft.co.za/",
     githubLink: "https://github.com/Riyaazct/myPortfolio",
+    figmaLink:
+      "https://www.figma.com/design/HPZcVneTGPjO3TwPkjcVGB/Untitled?node-id=0-1&t=39WDV42UGaW4oS98-1",
   },
   {
     path: "/project05",

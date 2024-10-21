@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiFigma } from "react-icons/si";
 import { SlLink } from "react-icons/sl";
 
 const ProjectPage = ({
@@ -11,6 +11,7 @@ const ProjectPage = ({
   otherTechnologies,
   liveLink,
   githubLink,
+  figmaLink,
 }) => {
   return (
     <section className="bg-[#2e3b4e] h-full p-10 flex text-[#FFFFFF] ">
@@ -87,6 +88,19 @@ const ProjectPage = ({
                   color="#FFD700"
                 />
                 <p className="pt-2 text-sm md:text-lg">View code</p>
+              </div>
+            ) : null}
+          </a>
+          <a href={figmaLink} target="_blank" rel="noreferrer">
+            {figmaLink ? (
+              <div className="flex flex-col items-center mt-3">
+                <SiFigma
+                  size={window.innerWidth <= 768 ? 22 : 40}
+                  color="#FFD700"
+                />
+                <p className="pt-2 text-sm md:text-lg">
+                  View figma design
+                </p>
               </div>
             ) : null}
           </a>
