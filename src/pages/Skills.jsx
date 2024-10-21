@@ -11,6 +11,7 @@ import {
   SiGithub,
   SiWordpress,
   SiElementor,
+  SiFigma,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
@@ -214,6 +215,20 @@ const Skills = () => {
               />
             }
             label={"Elementor"}
+          />
+          <SkillIcon
+            icon={
+              <SiFigma
+                size={
+                  window.innerWidth <= 768
+                    ? 35
+                    : window.innerWidth <= 1024
+                    ? 48
+                    : 58
+                }
+              />
+            }
+            label={"Figma"}
           />
         </Slider>
         {/* End of Slider component */}
