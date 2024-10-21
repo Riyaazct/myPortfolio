@@ -5,6 +5,7 @@ import project03 from "../assets/images/project03.png";
 import project04 from "../assets/images/project04.png";
 import project05 from "../assets/images/project05.png";
 import project06 from "../assets/images/project06.png";
+import project07 from "../assets/images/project07.png";
 
 const projectData = [
   {
@@ -211,13 +212,6 @@ const projectData = [
           maintaining user sessions Intuitive and responsive user
           interface
         </p>
-        <p>
-          Technologies Used: Frontend: React.js, React Router, Redux
-          Backend: Node.js, Express.js Database: PostgreSQL
-          Authentication: JWT, Google OAuth Additional Libraries:
-          Axios, bcrypt, JWT GitHub Repository: Link to GitHub
-          Repository
-        </p>
       </>
     ),
     projectType: "Full-Stack",
@@ -239,6 +233,78 @@ const projectData = [
     ],
     liveLink: "https://todo-list-react-two-black.vercel.app/",
     githubLink: "https://github.com/Riyaazct/todos",
+  },
+  {
+    path: "/project07",
+    title: "New Era Automation, Security, and Maintenance Website",
+    image: project07,
+    description: (
+      <>
+        <p>
+          The New Era Automation, Security, and Maintenance website
+          was designed and developed using WordPress to showcase
+          security and automation services such as wall spikes, gate
+          motor installations, and garage door motor services. The
+          site focuses on providing an intuitive user experience while
+          maintaining a professional look for potential customers.
+        </p>
+        <br />
+
+        <strong>Key Features:</strong>
+        <p>
+          Responsive Design: Ensures optimal performance and viewing
+          across devices, including desktop, tablet, and mobile.
+        </p>
+        <br />
+        <p>
+          Service Showcases: Highlights key services, including wall
+          spikes, gate motor installations, and garage door motor
+          repairs, using engaging content and dynamic images/icons.
+        </p>
+        <br />
+        <p>
+          SEO Optimized: Implemented SEO strategies to improve search
+          engine ranking, including the use of optimized meta
+          descriptions, focus keywords, and integration of the Yoast
+          SEO plugin.
+        </p>
+        <br />
+        <p>
+          Dynamic Content Integration: Utilized dynamic elements for
+          service listings and smooth transitions between pages to
+          maintain a modern and professional look.
+        </p>
+
+        <p>
+          Custom Call-to-Actions (CTAs): Engaging CTAs strategically
+          placed throughout the site to increase client interaction
+          and conversion rates.
+        </p>
+        <br />
+        <strong>Hosting and Optimization:</strong>
+        <p>
+          Hosting Platform: The website is hosted on my DirectAdmin
+          Reseller Account, utilizing a subdomain for seamless and
+          cost-effective management.
+        </p>
+        <br />
+        <p>
+          Performance Optimization: Integrated WP Super Cache for
+          improved load times and overall website performance,
+          ensuring a fast and efficient browsing experience for
+          visitors.
+        </p>
+      </>
+    ),
+    projectType: "Front-End",
+    technologies: ["Wordpress", "Elementor", "DirectAdmin(hosting)"],
+    otherTechnologies: [
+      "Yoast SEO",
+      "Starter Templates",
+      "WP Super Cache",
+      "Contact Form 7",
+    ],
+    liveLink: "https://nesm.riyaazscodecraft.co.za/",
   },
 ];
 
