@@ -64,7 +64,11 @@ const ProjectPage = ({
         {/* Display links to the live project and GitHub repository */}
         <div
           className={
-            !githubLink ? "gap-0" : "flex mt-5 text-white gap-14"
+            !githubLink
+              ? "gap-0"
+              : figmaLink
+              ? "gap-8 flex"
+              : "flex mt-5 text-white gap-14"
           }
         >
           <a href={liveLink} target="_blank" rel="noreferrer">
@@ -95,7 +99,7 @@ const ProjectPage = ({
                   color="#FFD700"
                 />
                 <p className="pt-2 text-sm md:text-lg">
-                  View figma design
+                  Figma Design
                 </p>
               </div>
             ) : null}
