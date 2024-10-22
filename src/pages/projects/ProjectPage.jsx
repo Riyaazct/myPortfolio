@@ -33,17 +33,12 @@ const ProjectPage = ({
         </p>
 
         {/* TECHNOLOGIES */}
-        <div className="flex w-full mt-8 md:gap-5 lg:justify-around ">
-          <div className="mx-12 md:mx-16">
-            <h3 className="font-semibold md:text-2xl">
-              Technologies Used:
-            </h3>
+        <div className="flex mt-8 md:gap-5 lg:justify-around">
+          <div className="mx-8 md:mx-16">
+            <h3 className="font-bold md:text-2xl">Technologies:</h3>
             <ul className="my-5 list-disc">
               {technologies.map((tech, index) => (
-                <li
-                  key={index}
-                  className="px-2 font-semibold md:text-2xl"
-                >
+                <li key={index} className="px-2 md:text-2xl">
                   {tech}
                 </li>
               ))}
@@ -52,16 +47,13 @@ const ProjectPage = ({
 
           {/* OTHER TECHNOLOGIES */}
 
-          <div className="mx-12 md:mx-16">
-            <h3 className="font-semibold md:text-2xl">
-              Other Technologies Used:
+          <div className="mx-8 md:mx-16">
+            <h3 className="font-bold md:text-2xl">
+              Other Technologies:
             </h3>
             <ul className="my-5 list-disc">
               {otherTechnologies.map((tech, index) => (
-                <li
-                  key={index}
-                  className="px-2 font-semibold md:text-2xl"
-                >
+                <li key={index} className="px-2 md:text-2xl">
                   {tech}
                 </li>
               ))}
@@ -70,7 +62,11 @@ const ProjectPage = ({
         </div>
 
         {/* Display links to the live project and GitHub repository */}
-        <div className="flex mt-5 text-white gap-14">
+        <div
+          className={
+            !githubLink ? "gap-0" : "flex mt-5 text-white gap-14"
+          }
+        >
           <a href={liveLink} target="_blank" rel="noreferrer">
             <div className="flex flex-col items-center mt-3">
               <SlLink
