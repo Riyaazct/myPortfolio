@@ -191,6 +191,20 @@ const Skills = () => {
           />
           <SkillIcon
             icon={
+              <SiGithub
+                size={
+                  window.innerWidth <= 768
+                    ? 35
+                    : window.innerWidth <= 1024
+                    ? 48
+                    : 58
+                }
+              />
+            }
+            label={"Github"}
+          />
+          <SkillIcon
+            icon={
               <SiWordpress
                 size={
                   window.innerWidth <= 768
