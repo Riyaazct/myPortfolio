@@ -68,6 +68,8 @@ const ProjectPage = ({
               ? "gap-0"
               : figmaLink
               ? "gap-8 flex"
+              : !figmaLink
+              ? " flex gap-11 ml-20"
               : "flex mt-5 text-white gap-14"
           }
         >

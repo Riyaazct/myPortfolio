@@ -132,7 +132,7 @@ const projectData = [
     figmaLink:
       "https://www.figma.com/design/HPZcVneTGPjO3TwPkjcVGB/Untitled?node-id=0-1&t=39WDV42UGaW4oS98-1",
   },
-  {
+  /* {
     path: "/project05",
     title: "Online Quotation Generator",
     image: project05,
@@ -186,7 +186,7 @@ const projectData = [
     ],
     liveLink: "https://all-in-one-quotation-generator.vercel.app/",
     githubLink: "",
-  },
+  }, */
   {
     path: "/project06",
     title: "Todo List Application",
@@ -240,7 +240,7 @@ const projectData = [
   },
   {
     path: "/project07",
-    title: "New Era Automation, Security, and Maintenance Website",
+    title: "New Era Automation & Security",
     image: project07,
     description: (
       <>
