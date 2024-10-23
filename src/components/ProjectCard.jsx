@@ -27,9 +27,14 @@ const ProjectCard = ({
           loading="lazy"
           className="lg:min-h-[290px] lg:max-w-[500px] object-fill my-7 max-h-72 lg:rounded-md"
         />
-        <h2 className="text-2xl text-[#FFFFFF] font-semibold  ">
-          Project Type: {projectType}
-        </h2>
+        <div className="flex gap-3">
+          <h2 className="text-lg lg:text-2xl text-[#FFFFFF] font-semibold  ">
+            Project Type:
+          </h2>
+          <p className="text-lg text-[#FFD700] font-medium">
+            {projectType}
+          </p>
+        </div>
         <ul className="flex max-w-[90%] gap-2 text-[#ffffff] font-semibold text-sm mt-4 border bg-slate-500 p-2 flex-wrap rounded-md mb-4">
           {technologies.map((tech, index) => (
             <li
@@ -40,7 +45,6 @@ const ProjectCard = ({
             </li>
           ))}
         </ul>
-
         <a
           href={path}
           target="_blank"
