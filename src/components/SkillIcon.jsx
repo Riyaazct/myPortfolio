@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // Define a functional component called SkillIcon that takes in 'icon' and 'label' props
 const SkillIcon = ({ icon, label }) => {
   return (
-    <div className="flex flex-col flex-wrap items-center gap-1 p-2 text-[#1F4A23] hover:scale-105 duration-300 opacity-40 hover:opacity-100 ">
+    <div className="flex flex-col flex-wrap items-center gap-1 p-2 text-[#1F4A23] hover:scale-105 duration-300 opacity-70 hover:opacity-100 ">
       {/* Display the provided 'icon' element */}
       {icon}
       {/* Display the provided 'label' as a tooltip on hover */}

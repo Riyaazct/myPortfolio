@@ -12,6 +12,7 @@ import {
   SiWordpress,
   SiElementor,
   SiFigma,
+  SiRedux,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
@@ -190,7 +191,7 @@ const Skills = () => {
           />
           <SkillIcon
             icon={
-              <SiWordpress
+              <SiGithub
                 size={
                   window.innerWidth <= 768
                     ? 35
@@ -200,7 +201,21 @@ const Skills = () => {
                 }
               />
             }
-            label={"Wordpress"}
+            label={"Github"}
+          />
+          <SkillIcon
+            icon={
+              <SiRedux
+                size={
+                  window.innerWidth <= 768
+                    ? 35
+                    : window.innerWidth <= 1024
+                    ? 48
+                    : 58
+                }
+              />
+            }
+            label={"Redux"}
           />
           <SkillIcon
             icon={
