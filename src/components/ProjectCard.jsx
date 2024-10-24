@@ -27,11 +27,11 @@ const ProjectCard = ({
           loading="lazy"
           className="lg:min-h-[290px] lg:max-w-[500px] object-fill my-7 max-h-72 lg:rounded-md"
         />
-        <div className="flex gap-3">
+        <div className="flex gap-3 lg:gap-2">
           <h2 className="text-lg lg:text-2xl text-[#FFFFFF] font-semibold  ">
             Project Type:
           </h2>
-          <p className="text-lg text-[#FFD700] font-medium">
+          <p className="text-lg text-[#FFD700] font-semibold lg:my-auto lg:text-xl">
             {projectType}
           </p>
         </div>
